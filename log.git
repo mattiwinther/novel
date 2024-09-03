@@ -1,0 +1,3902 @@
+commit 5708a43b742b63514f7b366a19552488f8292e00
+Author: Matti Winther <mattiwinther@gmail.com>
+Date:   Tue Sep 3 16:02:54 2024 -0100
+
+    cleaned ui, added copy
+
+commit 6154d581278b3beaaadcf15d62f22474f50102b5
+Author: Matti Winther <mattiwinther@gmail.com>
+Date:   Tue Sep 3 16:02:12 2024 -0100
+
+    cleaned ui, added copy
+
+commit e41e1e428db4984f38cc365b6e11d2c849c73006
+Author: Matti Winther <mattiwinther@gmail.com>
+Date:   Tue Sep 3 16:00:28 2024 -0100
+
+    cleaned ui, added copy
+
+commit 36cc83688071ecfafc1cc77d97cd2258c2057096
+Author: Matti Winther (aider) <mattiwinther@gmail.com>
+Date:   Tue Sep 3 09:08:18 2024 -0100
+
+    fix: add "use client" directive to page.tsx
+
+commit d39f86e0136b789edd1f6fc953457e26b9e5a8bc
+Author: Matti Winther (aider) <mattiwinther@gmail.com>
+Date:   Tue Sep 3 09:06:14 2024 -0100
+
+    fix: Implement "View Source" functionality with syntax highlighting
+    
+    feat: Implement "View Source" functionality with syntax highlighting
+
+commit b907bcbb5d229233da5bb575f77bfface26bbc68
+Author: Matti Winther (aider) <mattiwinther@gmail.com>
+Date:   Tue Sep 3 09:04:33 2024 -0100
+
+    feat: Implement "View Source" functionality with syntax highlighting
+
+commit b884575a563e35b08f5b22bc27b8c2ed37969423
+Author: Matti Winther (aider) <mattiwinther@gmail.com>
+Date:   Tue Sep 3 09:03:38 2024 -0100
+
+    fix: remove duplicate "View Source" button and dialog
+
+commit 784ecdc2083bed3ec4f2a644909889dd31075ddd
+Author: Matti Winther (aider) <mattiwinther@gmail.com>
+Date:   Tue Sep 3 09:02:59 2024 -0100
+
+    feat: Implement "View Source" functionality
+
+commit 553dd09a6629686fbc9410925c00e0d8771e1966
+Author: Matti Winther (aider) <mattiwinther@gmail.com>
+Date:   Tue Sep 3 08:56:53 2024 -0100
+
+    feat: add "View Source" button to component showcase page
+
+commit caab903bdf9e0631c10e50e4d99b134a4d6ab194
+Author: Matti Winther (aider) <mattiwinther@gmail.com>
+Date:   Tue Sep 3 07:57:37 2024 -0100
+
+    fix: add accessibility improvements
+
+commit 4be0fd4dadec93ef30d5334b6b2db9774ec831fb
+Author: Matti Winther (aider) <mattiwinther@gmail.com>
+Date:   Tue Sep 3 07:57:09 2024 -0100
+
+    feat: Add source view popup to advanced editor
+
+commit 1c2fcd4ab1c9e8b666c5a9772d0a29c778422aa8
+Author: Matti Winther (aider) <mattiwinther@gmail.com>
+Date:   Tue Sep 3 07:56:39 2024 -0100
+
+    feat: Add source view button and popup to editor
+
+commit ecdb5d2ff5d3e6ab5f5af95b5a81de3ab4e8a0e9
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Fri Jul 26 01:14:24 2024 +0300
+
+    chore: bump version
+
+commit 7f3e00dbf5bf1ff76dfcc0ad6a2dc29ea2ee665f
+Merge: 770b310d df22eafd
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Mon Jul 15 23:55:56 2024 +0300
+
+    Merge pull request #420 from phyohtetarkar/main
+    
+    feature: add mathematics extension
+
+commit 770b310dcbd840a783c9a455b44e3fa13a3027eb
+Merge: d0555b90 abb90ae3
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Mon Jul 15 23:55:35 2024 +0300
+
+    Merge pull request #417 from cristianrdu/main
+    
+    fix: remove default extensions and make them standalone exports
+
+commit d0555b90b6eaab9df45796979d6abce28fcbc6d1
+Merge: fb42c238 ad2e6f82
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Mon Jul 15 23:55:13 2024 +0300
+
+    Merge pull request #413 from tautastic/tautastic/issue412
+    
+    bug: Usage of `editor.chain().focus()` removes focus from tippy popover  Fixes #412
+
+commit fb42c2383e8d4245ed43c273ff866497f7464a1f
+Merge: 6da194cf 00992049
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Mon Jul 15 23:54:55 2024 +0300
+
+    Merge pull request #410 from ziyaDev/main
+    
+    Fix: Wrap suggestionItems with <EditorCommandList>
+
+commit 6da194cf143b69899e294f380465afdcb1622b0a
+Merge: 008d159f 5ccdaf9d
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Mon Jul 15 23:54:13 2024 +0300
+
+    Merge pull request #403 from MODSetter/bold-color-fix
+    
+    fix : bold text color + bold highlight color
+
+commit df22eafd3183fb66acf650387d0e764310a6f443
+Author: Phyo Htet Arkar <phyohtetarkar@gmail.com>
+Date:   Sun Jun 30 15:00:47 2024 +0630
+
+    add content example
+
+commit 15b44284d60a7ee88da3e1f1ee3462acdc1f8af8
+Author: Phyo Htet Arkar <phyohtetarkar@gmail.com>
+Date:   Sun Jun 30 14:42:06 2024 +0630
+
+    feat: add mathematics extension
+
+commit abb90ae3906790708c9d77fe01dc821537dda532
+Merge: 54bfd404 008d159f
+Author: Cristian <raducristiandumitrana@gmail.com>
+Date:   Wed Jun 26 21:01:50 2024 +0300
+
+    Merge branch 'steven-tey:main' into main
+
+commit 54bfd404b013a094449a2ac16ec47a561ddd15a5
+Author: Cristi <raducristiandumitrana@gmail.com>
+Date:   Wed Jun 26 21:00:19 2024 +0300
+
+    fix: remove default extensions and make them standalone exports
+
+commit ad2e6f8225e39ad55ea8d2f2ecfeee868a86b8fe
+Author: TauTastic <91988666+tautastic@users.noreply.github.com>
+Date:   Fri Jun 21 11:59:46 2024 +0000
+
+    fix
+
+commit 008d159f9e038074422de88cfdf1c984354e3713
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Thu Jun 20 23:09:45 2024 +0300
+
+    chore: bump version
+
+commit 00992049ddcd20d842fd5ce44caf33cd382dd51d
+Merge: 746cf434 4b419d33
+Author: ziyaDev <125736719+ziyaDev@users.noreply.github.com>
+Date:   Wed Jun 19 17:46:30 2024 +0100
+
+    Merge pull request #1 from ziyaDev/ziyaDev-patch-1
+    
+    Update slash-command.mdx
+
+commit 4b419d33aa151f699d0177d6881a1e82fb10b086
+Author: ziyaDev <125736719+ziyaDev@users.noreply.github.com>
+Date:   Wed Jun 19 17:44:30 2024 +0100
+
+    Update slash-command.mdx
+    
+    Fix: Wrap suggestionItems with <EditorCommandList>
+    
+    Ensures proper functionality by wrapping suggestionItems with the necessary <EditorCommandList> component.
+
+commit 746cf434183364f46753afcc9284039737e37f17
+Merge: 1c4df17f a5b78912
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Mon Jun 17 09:23:57 2024 +0300
+
+    Merge pull request #407 from cristianrdu/main
+    
+    feature: add twitter extension
+
+commit a5b7891269b9d43af4d69085cf985d5607219848
+Author: Cristi <raducristiandumitrana@gmail.com>
+Date:   Thu Jun 13 00:13:47 2024 +0300
+
+    fix stylings
+
+commit 4e743e67229be4e6f4e9182ea14996106905faca
+Author: Cristi <raducristiandumitrana@gmail.com>
+Date:   Wed Jun 12 22:59:51 2024 +0300
+
+    add content example
+
+commit 1da07ca510d35a8593c0d9602703f866d1b7c7f7
+Author: Cristi <raducristiandumitrana@gmail.com>
+Date:   Tue Jun 11 17:48:28 2024 +0300
+
+    renaming
+
+commit e019f34575b0a9d8a1e1fbc04c72c100780ed035
+Author: Cristi <raducristiandumitrana@gmail.com>
+Date:   Tue Jun 11 17:41:55 2024 +0300
+
+    feat: add twitter extension
+
+commit 5ccdaf9dbcbc188dda2c416c4b511390792166ae
+Author: DESKTOP-RTLN3BA\$punk <vermarohanfinal@gmail.com>
+Date:   Wed May 29 08:29:05 2024 -0700
+
+    updated docs
+
+commit 2c80c0f97e4b3d025e9bde30055948a5a40e0435
+Merge: 4bbb35bb 1c4df17f
+Author: Rohan Verma <122026167+MODSetter@users.noreply.github.com>
+Date:   Tue May 28 15:27:21 2024 -0700
+
+    Merge branch 'steven-tey:main' into bold-color-fix
+
+commit 4bbb35bb1f097f0b5b741a496c282d6c7f7380d4
+Author: DESKTOP-RTLN3BA\$punk <vermarohanfinal@gmail.com>
+Date:   Tue May 28 15:25:38 2024 -0700
+
+    Added comment in prosemirror.css
+
+commit 1c4df17f252773ca472150541468a01c18d37588
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Tue May 28 23:07:50 2024 +0300
+
+    fix: use verbatim import
+
+commit 6254cb339ba2f8c90b571cb6562303da65682c50
+Merge: 68243f69 4d1be9bb
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Tue May 28 23:05:01 2024 +0300
+
+    Merge pull request #400 from missingsemicolononline8/missingsemicolononline8-patch-1
+    
+    Feat: Specify Element to which Slash Commands are Added
+
+commit 4d1be9bb3f121b0f885ef95a160ee575d16d53b8
+Author: missingsemicolononline8 <76899808+missingsemicolononline8@users.noreply.github.com>
+Date:   Tue May 28 18:05:48 2024 +0530
+
+    Update slash-command.tsx
+
+commit 219cf4af41677a2a890c1fc433a31d0156daa06a
+Author: missingsemicolononline8 <76899808+missingsemicolononline8@users.noreply.github.com>
+Date:   Tue May 28 18:00:23 2024 +0530
+
+    Update slash-command.tsx
+
+commit 21003e75826a20f07354376f7f9cee126f4bf659
+Author: DESKTOP-RTLN3BA\$punk <vermarohanfinal@gmail.com>
+Date:   Tue May 28 02:05:19 2024 -0700
+
+    fix : bold text color + bold highlight color
+
+commit 6db81970ebc2773ea723dfe60b644766b0a238dd
+Author: DESKTOP-RTLN3BA\$punk <vermarohanfinal@gmail.com>
+Date:   Tue May 28 01:54:38 2024 -0700
+
+    fix: cannot set text color when the text is bold
+
+commit 70a918e3b6416dc2041cb3b7e715db70d57e20ba
+Author: missingsemicolononline8 <76899808+missingsemicolononline8@users.noreply.github.com>
+Date:   Fri May 24 03:15:58 2024 +0530
+
+    Update slash-command.tsx
+    
+    The renderItems function can accept an optional parameter, a react ref to an element in DOM, to which slash commands are appended.
+
+commit 68243f69613a94e414fb401992a613228f40ac98
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Sun May 19 22:31:33 2024 +0300
+
+    fix: chore bump version
+
+commit 29b025dd82604ed6f0a290c74cf65f698f1cd3ac
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Sun May 19 22:29:50 2024 +0300
+
+    chore: bump drag extension
+
+commit f4a49dc427127bc8087112a7bf2b25d9311992c4
+Merge: 74ebbc08 de5c2e55
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Sun May 19 22:26:26 2024 +0300
+
+    Merge pull request #395 from MODSetter/codeblock-html-fix
+    
+    fix: codeblock-lowlight doesn't render in html output
+
+commit de5c2e55e1b7cb553ee55437d363fc0a041552c9
+Author: DESKTOP-RTLN3BA\$punk <vermarohanfinal@gmail.com>
+Date:   Sat May 18 00:00:18 2024 -0700
+
+    fix: codeblock-lowlight doesn't render in html output
+
+commit 74ebbc0852deeca76668b3319e490582756c97ed
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Fri May 17 11:56:06 2024 +0300
+
+    fix: bump version
+
+commit 33252ac5148437cd4be7be736b7b8f872b07888d
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Fri May 17 11:54:51 2024 +0300
+
+    fix: expose utils
+
+commit 7051d542a78320565d8ce2fe9086967603934ace
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Fri May 17 11:46:21 2024 +0300
+
+    fix: chore bump version
+
+commit 4e4592c64f49328574383429a13bc72132314f14
+Merge: 8363ea60 13e74b3a
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Fri May 17 11:31:11 2024 +0300
+
+    Merge pull request #390 from hernancito/remove-image-placeholder
+    
+    Image is deleted if an error occurs
+
+commit 8363ea60c6bc7bd64c5e8409b38a8696d1d7240f
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Fri May 17 11:30:18 2024 +0300
+
+    fix: keep drag handle
+
+commit d4484f96b764f17ac9bcb152db7caa5279ca7666
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Fri May 17 10:38:49 2024 +0300
+
+    fix: format lint
+
+commit 75da61969b43a6f1b567c624f1a68e119578a589
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Fri May 17 10:37:43 2024 +0300
+
+    fix: add missing dependecy
+
+commit c568c1574d2145d4515c544aedac6bc8913e0028
+Merge: 7e99b722 05755d50
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Fri May 17 10:32:54 2024 +0300
+
+    Merge branch 'main' of https://github.com/steven-tey/novel
+
+commit 7e99b722e393cde51bd206b0d012c130837c7137
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Fri May 17 10:31:46 2024 +0300
+
+    feat: add utils functions for text generation
+
+commit 05755d5010286aee58e674956692bf3fe291d276
+Merge: 081ab3bd 32be5b1a
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Fri May 17 10:31:02 2024 +0300
+
+    Merge pull request #386 from MODSetter/ytEmbeds
+    
+    feat: Basic YT Embeds + CharCount Support
+
+commit 13e74b3a4b9b77356c895892f0a142d3a872403e
+Author: Hernán Valdez <hernanarielvaldez@gmail.com>
+Date:   Sat May 11 16:17:54 2024 -0300
+
+    fix: image is deleted if an error occurs
+
+commit 32be5b1afaaccb196ce97dc85c11cf346192121a
+Author: DESKTOP-RTLN3BA\$punk <vermarohanfinal@gmail.com>
+Date:   Fri May 3 15:49:40 2024 -0700
+
+    Basic YT Embeds + CharCount Support
+
+commit 081ab3bd6367d6e2e5660da1f2615ce322def85c
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Thu May 2 17:51:48 2024 +0300
+
+    feat: fix biome linting
+
+commit 03b1972f83a142ba913852f3488a0c1f69d7f5cc
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Thu May 2 17:16:22 2024 +0300
+
+    chore: fix formatting
+
+commit e2601a059332e7db580d517f3081d7db555a1fb3
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Thu May 2 17:15:45 2024 +0300
+
+    feat: use biome for linting & formatting
+
+commit 2951c5ee82a694b5b7d687d1a4d00300d5208c20
+Merge: dbef03c5 1698ff16
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Thu May 2 17:04:46 2024 +0300
+
+    Merge branch 'main' of https://github.com/steven-tey/novel
+
+commit dbef03c5cafb691c3dc4f8c14e6944707ca70a98
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Thu May 2 17:04:08 2024 +0300
+
+    fix: remove auto joiner
+
+commit 1698ff166d7779cf90f741b7979694e3d585a255
+Merge: 653716e2 b3e2633c
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Thu May 2 14:57:32 2024 +0300
+
+    Merge pull request #375 from ankuragrwl/code-block-syntax-hightlight
+    
+    feat: Added support for code blocks syntax highlighting
+
+commit 653716e21dda66961e2b1591a4b03e57dc6f1ecc
+Merge: 2abe1460 7cc49282
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Thu May 2 14:27:57 2024 +0300
+
+    Merge pull request #374 from code-sharad/fix-cannot-remove-a-selected-link-in-the-bubble-menu-#370
+    
+    #370-fix-cannot-remove-a-selected-link-in-the-bubble-menu
+
+commit b3e2633c993c4bf63d590be13afd4abf19385459
+Author: Ankur Agrawal <ankuragrawal.2590@gmail.com>
+Date:   Sat Apr 13 21:03:04 2024 +0530
+
+    FIX: Removed hardcoded highlightjs grammars, used lowlight common configuration
+
+commit de8322a8ed6f59f110fe6d802cbcee35b32ca48a
+Author: Ankur Agrawal <ankuragrawal.2590@gmail.com>
+Date:   Tue Apr 9 20:37:51 2024 +0530
+
+    Feat: Added support for code blocks syntax highlight
+
+commit 7cc49282bbda6e3176670cb11e5125784c286f55
+Author: Sharad Bhadait <61672294+code-sharad@users.noreply.github.com>
+Date:   Tue Apr 9 16:59:37 2024 +0530
+
+    Update link-selector.tsx
+
+commit 2abe1460207d78651593cd75990ea39195b8d5b8
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Sat Mar 30 16:00:06 2024 +0200
+
+    fix: bump version
+
+commit 9152e461a5ba8fb6480d423b4688a15407365c47
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Sat Mar 30 12:34:43 2024 +0200
+
+    feat: add dialog usage
+
+commit 41d7e6afdf787d82095bef6b819ed7572e3559f8
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Fri Mar 29 10:43:46 2024 +0200
+
+    fix: bump version
+
+commit 05719730b34d29ee0ae4427e8f88392b408d603e
+Merge: cb682b44 7a248c8c
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Fri Mar 29 10:32:21 2024 +0200
+
+    Merge pull request #361 from NiclasDev63/new-drag-handle
+    
+    Updated Drag Handle
+
+commit 7a248c8ce36d2f76dce04e8e815e9242cc46c391
+Author: NiclasDev63 <niclas.gregor20@gmail.com>
+Date:   Thu Mar 28 19:57:51 2024 +0100
+
+    Drag handle code deleted and global drag handle and auto joiner extension added as dependency instead. Also added documentation for the new drag handle and auto joiner extensions
+
+commit cb682b44a60ae569c0ca70afac9dd9ad8fee3f36
+Merge: ddf0e014 7ac5895b
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Wed Mar 27 18:46:18 2024 +0200
+
+    Merge pull request #358 from xyspg/main
+    
+    feat: support for custom OpenAI base url
+
+commit 7ac5895b7aece309a1e671bf5fa4d5042db296ea
+Author: Kang Jiaming <jiaming_kang@outlook.com>
+Date:   Sun Mar 24 13:11:30 2024 +0800
+
+    feat: support for custom OpenAI base url
+
+commit ddf0e0145d2e41dc2ab694bf29fcc9a93d57c04e
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Sun Mar 24 00:22:16 2024 +0200
+
+    fix: default value and css styles
+
+commit a3ed15672f01d7db15bd629137a657d6dd93ea77
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Sun Mar 24 00:07:05 2024 +0200
+
+    init: tailwind example next
+
+commit 9f15fba9212606c8de5a16b91c220605b3179a49
+Merge: 0775dff2 a1457c4d
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Fri Mar 22 09:22:49 2024 +0200
+
+    Merge pull request #354 from arielweinberger/patch-1
+    
+    fix(docs): tailwind extensions guide
+
+commit a1457c4dfc2f869bb59e8950c49e05a50938b652
+Author: Ariel Weinberger <Weinberger.Ariel@gmail.com>
+Date:   Thu Mar 21 14:47:01 2024 +0100
+
+    fix(docs): tailwind extensions guide
+
+commit 0775dff2b7b1501bb0ddc465c2b8ae13be5fd4fe
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Mon Mar 18 21:15:50 2024 +0200
+
+    chore: bump version
+
+commit 9140b03bdf198af753624954f2bee92b2292a0a5
+Merge: 90083956 d04495a8
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Mon Mar 18 18:28:48 2024 +0200
+
+    Merge pull request #350 from haydenbleasel/main
+
+commit d04495a885b71c22aa1c29c5d2e941e35df5af56
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Mon Mar 18 12:26:40 2024 -0400
+
+    Add a note about dialogs
+
+commit a8300225f3d00ab653fe2dcb711907b17d417426
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 16 14:48:45 2024 -0400
+
+    Update drag-and-drop.tsx
+
+commit f016ded51aaff523b3117c090f661d20bbc2af84
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 16 14:47:59 2024 -0400
+
+    Restore unnecessary changes
+
+commit ba822b3cf6829a709933227529c195e9b67a88eb
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 16 14:21:32 2024 -0400
+
+    Misc fix
+
+commit 430fcd1cfc00ed26db974eb0e3bd2a4cb814dc35
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Fri Mar 15 22:46:57 2024 -0400
+
+    Resolves #234
+
+commit 90083956ac93da1c00e295eb68aeb6f39e97b955
+Merge: 1441bef4 2aeee1b1
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Fri Mar 15 10:41:35 2024 +0200
+
+    Merge pull request #347 from EnriqueSantos-dev/fix/hide-bubble-menu-if-not-editable
+    
+    fix: not show bubble menu if editor cannot be editable
+
+commit 2aeee1b1f402cd2006a9f86b0450efb8db003e73
+Author: Enrique Santos <santosenrique869@gmail.com>
+Date:   Thu Mar 14 15:38:40 2024 -0300
+
+    fix: not show bubble menu if editor cannot be editable
+
+commit 1441bef45583a71e5d80b83f0e33419b30a987e6
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Mar 13 01:25:19 2024 -0700
+
+    Create FUNDING.yml
+
+commit 02409d14918166be52f0976a4a7f5b2df8cd4e81
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Mon Mar 11 16:26:30 2024 +0200
+
+    fix: bump version
+
+commit c51b5eaca45db7eab27f5e72019ba7c1df7fdade
+Merge: ccfc227b 84566528
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Mon Mar 11 16:23:22 2024 +0200
+
+    Merge pull request #342 from steven-tey/expose-command-list
+    
+    feat: expose editor command list
+
+commit 84566528fc3a4c3420c94f68a54a600810e9942c
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Mon Mar 11 16:21:51 2024 +0200
+
+    fix: expose editor command list
+
+commit ccfc227b8a09a8adfd86ee0a92cb5e06e64fa5fe
+Merge: 4294547e 7e075c2e
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Sat Mar 9 17:56:53 2024 +0200
+
+    Merge pull request #338 from dongree/fix-docs
+    
+    Fix typo in development.mdx
+
+commit 7e075c2e00c2cc72a4dd95797a7c6710863fba8e
+Author: dongree <dongwoo0307@naver.com>
+Date:   Sat Mar 9 20:51:01 2024 +0900
+
+    Fix typo in development.mdx
+
+commit 4294547e97bbd5788a4db58d8c75540cb19fc155
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Fri Mar 8 14:13:28 2024 +0200
+
+    fix: bump version
+
+commit 06587d51778e29e9fd228f560dc53867595a585c
+Merge: 357f7d0c 122b3eed
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Fri Mar 8 14:11:00 2024 +0200
+
+    Merge pull request #297 from steven-tey/ai-features
+    
+    feat: add ai features example
+
+commit 122b3eed4e748e0824b6a7d670bf26c93bdada5a
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Fri Mar 8 14:07:45 2024 +0200
+
+    feat: ai prev markdown
+
+commit 45efd37d157e5f0654fb8ec83e5175df7b2aa918
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Fri Mar 8 13:34:27 2024 +0200
+
+    feat: add custom highlight extension
+
+commit 44f3ae90e0d27230b72230f234ab0fc21c731ef0
+Merge: 256ab4a0 357f7d0c
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Fri Mar 8 12:58:40 2024 +0200
+
+    Merge branch 'main' into ai-features
+
+commit 357f7d0ce6e4c57a4cb9d8c77c1748e4b2d20120
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Thu Mar 7 15:11:16 2024 +0200
+
+    chore: bump version
+
+commit c3ded923656cc517c722ca7da9854f8bb04a26e8
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Thu Mar 7 14:05:30 2024 +0200
+
+    chore: bump version
+
+commit 7499182b4599ef7da49c33dc1a4262c7b93fba36
+Merge: 2338cdcd 9534c6ed
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Thu Mar 7 14:01:31 2024 +0200
+
+    Merge pull request #335 from steven-tey/custom-upload
+    
+    feat: add custom upload config
+
+commit 9534c6ed78fc5850e46673499117fc144c770058
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Thu Mar 7 13:58:44 2024 +0200
+
+    feat: update docs
+
+commit 2338cdcda611f6731abdaf59dbd54d305791da3d
+Merge: 4d49c2f9 282d47e4
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Thu Mar 7 10:33:15 2024 +0200
+
+    Merge pull request #334 from haydenbleasel/main
+    
+    Show grabbing cursor when grabbing drag handle
+
+commit a202e6eb14488fe640e082d9fa665ce32ff02f65
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Thu Mar 7 00:23:01 2024 +0200
+
+    feat: add custom upload config
+
+commit 282d47e4bdf1b921832cafa15e153c81be03180d
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Wed Mar 6 17:11:26 2024 -0500
+
+    Show grabbing cursor when grabbing drag handle
+
+commit 4d49c2f92ded59c73e5e79ccbc95eed0e75f361a
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Wed Mar 6 23:05:06 2024 +0200
+
+    fix: checkbox fix
+
+commit cb9366704180f9c7b5ccd793806af35d6c8f7d97
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Wed Mar 6 22:46:32 2024 +0200
+
+    fix: add default prose
+
+commit 75ed43afe643671b7249874e29e4e62053c98f40
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Wed Mar 6 00:28:00 2024 +0200
+
+    fix: bump version
+
+commit a8d30fc28550fa3d1238bca0e4ec0e7a83d5ebdd
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Wed Mar 6 00:23:05 2024 +0200
+
+    fix: build fix & prettier top level
+
+commit 2f61dec135ebc93e77695d6a34f19979125b0c14
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Wed Mar 6 00:16:09 2024 +0200
+
+    Create SECURITY.md
+
+commit 256edcda8a4bfcab9f22c676178e8f7dc2d50c1c
+Merge: b62800c2 8a3570bd
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Tue Mar 5 23:49:23 2024 +0200
+
+    Merge pull request #326 from brunocroh/fix/dont-trigger-command-on-codeBlock
+    
+    fix: dont trigger slash-command on codeBlock nodes
+
+commit b62800c2413f271d6d784d9a320d856ce096b638
+Merge: 7e189b8b 1ec55181
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Tue Mar 5 23:49:14 2024 +0200
+
+    Merge pull request #323 from brunocroh/fix/remove-drag-handle-on-drop
+    
+    fix: remove drag-handle on drop
+
+commit 7e189b8be24d54cb08224db5f3194d6498a2cb41
+Merge: 5cd87718 c06320af
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Tue Mar 5 23:48:36 2024 +0200
+
+    Merge pull request #321 from haydenbleasel/main
+    
+    Miscellaneous fixes
+
+commit 8a3570bd72f32076f9edb42b0492e5eea8d5a014
+Author: Bruno Rodrigues <brunocroh@gmail.com>
+Date:   Mon Mar 4 21:35:37 2024 -0300
+
+    fix: dont trigger slash-command on codeBlock nodes
+
+commit c06320af9a5159ae4df2ac32a7f558d537189f97
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 14:06:00 2024 -0500
+
+    Update pnpm-lock.yaml
+
+commit 14fae9e1daf1b54f982adbdaebb498e0a00a76bc
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 14:05:43 2024 -0500
+
+    Revert tsconfig, restore original lockfile
+
+commit 707e2214733d2fa176111b38506640f392dcea9c
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 14:04:29 2024 -0500
+
+    Remove Harmony
+
+commit 17a72a6ea36fa935f3f37dd154096a3b112cae28
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 14:02:53 2024 -0500
+
+    Fix comment spacing
+
+commit 4c5ba9aabb6f82b592cf0e9b8d1656724c027fea
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 14:02:43 2024 -0500
+
+    Use the unicode flag for regexes
+
+commit 4c41d6be1b0454e20dec579639b59d12a5440721
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 14:01:40 2024 -0500
+
+    Fix wrapping
+
+commit a326786c4143eef9347ce0d8da54b9bf44c80eba
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 14:01:27 2024 -0500
+
+    Sort type constituents for editor-content-props
+
+commit 36db710ef06b80c16f84cd6c4c7881e9f1d1e3c9
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 14:00:44 2024 -0500
+
+    Fix wrapping
+
+commit 0cd16d76000f5d1da1296803763b2987387122bb
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 14:00:18 2024 -0500
+
+    Fix imports for slash-command
+
+commit 4f54d498a688eace5e8409ec8f3542907ab68392
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 13:59:58 2024 -0500
+
+    Fix import order for extensions
+
+commit ba2fd66b02016009b91fb931f760debe45026abf
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 13:59:32 2024 -0500
+
+    Remove useless imageResizer fragment
+
+commit ccefeed477dc28da785d27fb05f015ef26a869b8
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 13:59:12 2024 -0500
+
+    Simplify ImageResizer type definition
+
+commit 5222f4b9c3f6361789968888918ac3197c512c83
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 13:58:55 2024 -0500
+
+    Fix dependency cycle for useCurrentEditor
+
+commit 6a54828f3695185c16ea54168c24b80617e40935
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 13:58:01 2024 -0500
+
+    Fix dependency cycle for novelStore
+
+commit b0b3ba8ab91364ff4c4d622c375d0411b1495216
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 13:57:10 2024 -0500
+
+    Fix dependency cycle for atoms
+
+commit 08aecf594900f84d7a602be06817505b34d90dda
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 13:55:29 2024 -0500
+
+    Use nullish coalescing operator
+
+commit f8bd0723a1caca172e56bc066d5eb832ead99d87
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 13:55:15 2024 -0500
+
+    Use array destructuring
+
+commit a4e34c37f16a9eaa6d06843faed68c5003e83389
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 13:54:56 2024 -0500
+
+    Add optional chaining for handlers
+
+commit 883d12cf43fe03ce76a7c5fd18494680dfe37ace
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 13:53:57 2024 -0500
+
+    Add missing displayName for EditorContent
+
+commit b572ec6c5b7659a3ecac2ef60db81a388099aaf3
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 13:53:45 2024 -0500
+
+    Mark EditorContentProps as readonly
+
+commit 151f2bcf0ad044ef47af5d879d54d807931c049d
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 13:53:13 2024 -0500
+
+    Return FC for EditorRoot
+
+commit b2f34304951e5f5d628406e0657cc09e99bc5b18
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 13:52:29 2024 -0500
+
+    Mark editor props as readonly
+
+commit 89513eb226aec011ef0c1913554cb41dba6c5ba8
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 13:52:18 2024 -0500
+
+    Remove unused imports
+
+commit ac788ec93fdf614349f5666f1e6a226b49d004ce
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 13:52:08 2024 -0500
+
+    Fix imports for editor
+
+commit 63fc50796357c39ca00e9419ba5511dd3db28004
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 13:51:10 2024 -0500
+
+    Add missing editor-command display name
+
+commit b871182b0c98acc3b5c7cf6eca5e51da4b7e1a25
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 13:50:57 2024 -0500
+
+    Mark editor-command-out props as readonly, return FC
+
+commit de2f99b8fec8cfdacd7d63a932ec235775a37316
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 13:50:10 2024 -0500
+
+    Fix editor-command imports
+
+commit 2f8b1423b8450772e3d32932a4e1f83e77286e52
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 13:49:41 2024 -0500
+
+    Mark editor-command-item props as readonly
+
+commit 6c365b969a580cf19954e39c4ef27899efe7acb5
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 13:49:30 2024 -0500
+
+    Wrapping fix
+
+commit 3a208810e42d3f74ed08f9969e6c63c5d6e97dc6
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 13:47:26 2024 -0500
+
+    Fix editor-command-item imports
+
+commit c9adf56d52dcc656b758864e3652110495f5aeea
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 13:47:09 2024 -0500
+
+    Disable printWidth
+
+commit 8c45d98d1e28b5514a1116975221029a196b31cc
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 13:46:16 2024 -0500
+
+    Fix re-use of variable name
+
+commit bf3ba7a49a54e65892c67cba0daa91e1c0957bf8
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 13:45:56 2024 -0500
+
+    Fix comment spacing
+
+commit f986646d753f739e820431ad2d85205924b77010
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 13:45:51 2024 -0500
+
+    Add missing displayName for editor-bubble
+
+commit 48e2ad01790918dde086f3b47f522fe3deedd09c
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 13:45:39 2024 -0500
+
+    Mark editor-bubble props as readonly
+
+commit d0c9bee21cf4550db800608ee5de491ca2c7e4e6
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 13:45:31 2024 -0500
+
+    Cleanup editor-bubble imports
+
+commit 90a28a3e2f54d10a94d4b27f3624ca543f9eb7e1
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 13:45:11 2024 -0500
+
+    Mark editor-bubble-item props as readonly
+
+commit 1ccfea5ef9e9a1c4007244454e2928df0d5978bc
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 13:44:57 2024 -0500
+
+    Cleanup editor-bubble-item imports
+
+commit 9b253ef947038ae419e4f0c387097762b25a1802
+Author: Hayden Bleasel <hello@haydenbleasel.com>
+Date:   Sat Mar 2 13:44:40 2024 -0500
+
+    Install Harmony
+
+commit 1ec551819e2490afddd1e042e0eb70d626c3325d
+Author: Bruno Rodrigues <brunocroh@gmail.com>
+Date:   Sun Mar 3 16:13:16 2024 -0300
+
+    fix: remove drag-handle on drop
+
+commit 5cd8771895f889b514c4e94f0db95bcb1416f979
+Merge: da91aa86 596d8117
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Sun Mar 3 11:22:33 2024 +0200
+
+    Merge pull request #322 from brunocroh/fix/clear-nodes-on-node-selector
+    
+    feat: clear nodes on node selector
+
+commit da91aa86a3b4ba415068f335991af1678a38c635
+Merge: 75efadf5 940e33bd
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Sun Mar 3 11:21:50 2024 +0200
+
+    Merge branch 'main' of https://github.com/steven-tey/novel
+
+commit 75efadf551011494c6380ba89d3b8a3cc3018dfb
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Sun Mar 3 11:21:45 2024 +0200
+
+    chore: remove wrong .github workflow
+
+commit 940e33bda6ee669993e5d0bd901f03000feac021
+Merge: 590c8bb7 d1b21d69
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Sun Mar 3 11:16:45 2024 +0200
+
+    Merge pull request #315 from bouceka/bug/309
+    
+    fix: rename updated image type
+
+commit 596d81176030b29dfa1b41ee99797e855e9cafbe
+Author: Bruno Rodrigues <brunocroh@gmail.com>
+Date:   Sat Mar 2 22:53:12 2024 -0300
+
+    feat: clear nodes on node selector
+
+commit d1b21d695ba105e3e7f26d607ee8969b92289ff5
+Author: Adam Boucek <adam@boucek.dev>
+Date:   Tue Feb 27 12:35:53 2024 -0800
+
+    fix: rename updated image type
+
+commit 590c8bb77823e4e7083eda7bade32b9ae6f6f872
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Tue Feb 27 20:25:58 2024 +0200
+
+    chore: bump version
+
+commit 16d3ff56a6b1cb291b79c72dcf71ed5735645dcc
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Tue Feb 27 20:19:04 2024 +0200
+
+    fix: rename to workflows
+
+commit 69f24385e2746061da0ddeac88c2ee23b038bb84
+Merge: bff3581c 40b860f6
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Tue Feb 27 20:17:21 2024 +0200
+
+    Merge pull request #314 from steven-tey/update-package-docs
+    
+    fix: update packge docs
+
+commit 40b860f654483934846fe66991c13906400c0fb1
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Tue Feb 27 20:16:52 2024 +0200
+
+    fix: update packge docs
+
+commit bff3581c68d3d30065d526c78b641d1081316128
+Merge: b1275506 7c2a9a1e
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Fri Feb 23 22:09:24 2024 +0200
+
+    Merge pull request #311 from steven-tey/configure-changeset
+    
+    feat: configure changesets for release
+
+commit 7c2a9a1eb79c774e5b11ca1f137f7f28ee4aaadf
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Fri Feb 23 15:50:43 2024 +0200
+
+    fix: add correct config
+
+commit db2781c48e1e25517d8c473209b09a06ea2edda4
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Fri Feb 23 15:38:34 2024 +0200
+
+    fix: add correct workflow
+
+commit c09dd55f0cc271b8d272a03a14a8b6108f611ee5
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Fri Feb 23 15:38:08 2024 +0200
+
+    feat: configure changeset for release
+
+commit b12755065326b0b1f88f0858a57ff48fb442a3e4
+Merge: 29a20799 ff9cf902
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Fri Feb 23 15:20:09 2024 +0200
+
+    Merge pull request #310 from steven-tey/update-docs-editor-instance
+    
+    fix: update docs & rename type to EditorInstance
+
+commit ff9cf902581cc2a65167f2b5493c9c183a489817
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Fri Feb 23 14:21:41 2024 +0200
+
+    fix: update docs & rename type to EditorInstance
+
+commit 29a20799248b8ae5391cb583a8323001c2f72470
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Fri Feb 23 13:54:57 2024 +0200
+
+    docs: rename Editor to TailwindEditor
+
+commit 3efd0a1e6363c9f7bc2350faa21686a7901f72da
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Wed Feb 21 16:51:30 2024 +0200
+
+    chore: bump version
+
+commit 770cb7040fdd741f4eb774ed8ac38787c2f1662f
+Merge: fe3d859d d05c03ff
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Wed Feb 21 16:35:19 2024 +0200
+
+    Merge pull request #305 from miikebar/fix/304-shared-slash-command-tunnel
+    
+    fix: use per-editor instance of tunnel to render slash command popover
+
+commit d05c03ff5f668d8b65a1729a9adc2d79315f9591
+Author: Michał Bar <9134970+miikebar@users.noreply.github.com>
+Date:   Tue Feb 20 21:40:12 2024 +0100
+
+    fix: use per-editor instance of tunnel to render slash command popover
+
+commit fe3d859db0f66ac9c70837100316b4edf2ade7f9
+Merge: a29c2ff7 50248dea
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Mon Feb 19 18:03:21 2024 +0200
+
+    Merge pull request #299 from braden-w/patch-1
+    
+    fix: colection to collection
+
+commit 50248dea0bb3463850f7cb1332fbc03377c17594
+Author: Braden Wong <13159333+braden-w@users.noreply.github.com>
+Date:   Fri Feb 16 15:24:34 2024 -0800
+
+    fix: colection to collection
+    
+    A very minor spelling fix in documentation
+
+commit 256ab4a03b168ee170e90b91a90ad7b8df0e3ec6
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Fri Feb 16 02:22:02 2024 +0200
+
+    fix: add crazy spinner
+
+commit abdd1b795acf1fe7211e7983171c5c73670b473a
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Fri Feb 16 01:54:36 2024 +0200
+
+    fix: add shorter longer options
+
+commit 2a5e18c8950f2e26659775d812b1be1d56baf169
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Wed Feb 14 10:02:37 2024 +0200
+
+    feat: add ai features example
+
+commit a29c2ff73c4f562a79b96f22b16e71ec8a8555de
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Tue Feb 13 20:57:59 2024 +0200
+
+    chore: bump version
+
+commit 0b48f2d4a9634bb757d5f40f9b8bbc25f16e8a8a
+Merge: 2241fd1c a3cd3388
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Tue Feb 13 20:56:24 2024 +0200
+
+    Merge pull request #295 from steven-tey/chore-update-tiptap-markdown
+    
+    chore: update tiptap markdown
+
+commit a3cd33888ab47a86a80f000a35b8abd6c663e431
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Tue Feb 13 20:55:46 2024 +0200
+
+    fix: pass ref to div
+
+commit d6358fe2c036e2d4c8101abb0912c8faabc9cf60
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Tue Feb 13 20:55:37 2024 +0200
+
+    fix: update tiptap-markdown
+
+commit 2241fd1c5275456f8cd81cffb19dbe9055444bab
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Tue Feb 13 16:27:42 2024 +0200
+
+    feat: add issue template
+
+commit 17dcc6d94a9d213f86a704c043985b97138912c1
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Tue Feb 13 16:17:42 2024 +0200
+
+    feat: add docs step to include editor props
+
+commit 4c4b28f981073b79a3068a8d5d1979b55cfdba20
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Tue Feb 13 15:55:21 2024 +0200
+
+    fix: bump version
+
+commit 1c1e149d23508f27c1a0ba1f8053985bd87a68ef
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Tue Feb 13 15:51:29 2024 +0200
+
+    chore: update lock
+
+commit 957e5dc279c804bab4c4af8a94f9275967fbbc65
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Tue Feb 13 15:50:19 2024 +0200
+
+    feat: forward ref components
+
+commit 6098232aafcd4eef8e01e07b954859e959c9477d
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Tue Feb 13 14:46:41 2024 +0200
+
+    chore: cleanup packages
+
+commit cfc4cce46d83188a883a4b6f3ab7d9dc6937dbc9
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Tue Feb 13 13:33:16 2024 +0200
+
+    chore: bump version
+
+commit 8d168f58ca8e6cc9a859f232a570a2ded6532367
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Tue Feb 13 13:19:54 2024 +0200
+
+    fix: update types
+
+commit fb2f35f49bc6fa498d2db0e3704ed96d817639a2
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Tue Feb 13 11:32:50 2024 +0200
+
+    chore: bump version
+
+commit 5ca260e4496ec9e4da114cb41ee874090a519c13
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Tue Feb 13 11:30:17 2024 +0200
+
+    fix: remove AI autocomplete default placeholder
+
+commit 1cc514089c8ba0b1e19e26e0d72b45c4f68ea360
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Tue Feb 13 03:30:56 2024 +0200
+
+    fix: add docs button
+
+commit 4569347e8306517747aa0b5be40c399a286b1b9a
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Tue Feb 13 03:24:40 2024 +0200
+
+    feat: update docs with demo code link
+
+commit 59277bc137fa90d1df0521ec95d7f5282b7f41a9
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Tue Feb 13 03:09:00 2024 +0200
+
+    chore: bump version
+
+commit cd119add0ff5b4243fe1632f29394ee5d5ab0505
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Tue Feb 13 03:03:45 2024 +0200
+
+    0.1.0
+
+commit 4155f0677ac56796596b5f486ac41a110dd49c5e
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Tue Feb 13 02:52:21 2024 +0200
+
+    fix: hide drag handle on scrolling
+
+commit c3592cdb52b8ae1e642e7767884e167f03b89687
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Tue Feb 13 02:30:33 2024 +0200
+
+    chore: update docs styles
+
+commit 4affcc7422362bf3e327ea8491fb60ff4a068bec
+Merge: 8f7995b8 f35c9db4
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Tue Feb 13 02:29:17 2024 +0200
+
+    Merge pull request #287 from brunocroh/fix/image-drag-n-drop
+    
+    fix: image move when dragged
+
+commit 8f7995b8867a83b6d63853d3272412fcb6b525f2
+Merge: 0768fffe 8a0f540c
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Tue Feb 13 02:25:22 2024 +0200
+
+    Merge branch 'main' of https://github.com/steven-tey/novel
+
+commit 0768fffeca75b6611c0135eeb91a5ffc82ac55db
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Tue Feb 13 02:24:07 2024 +0200
+
+    fix: update editor-content docs
+
+commit 8a0f540cd94feb3ce3a480331cc6fb6599c407ea
+Merge: ad79b1f5 62b70c18
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Tue Feb 13 02:14:03 2024 +0200
+
+    Merge pull request #274 from justinjunodev/readme-fix-license-link
+    
+    [Fix] - Correct License Link in README.md
+
+commit ad79b1f58891e2cf1bffaf61414f5c22007f24b6
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Tue Feb 13 02:09:35 2024 +0200
+
+    Update README.md
+
+commit e6fc4164ab73dda8b7f61bea0e5e0a97c11c4de4
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Tue Feb 13 02:02:23 2024 +0200
+
+    fix: type issue vercel build
+
+commit 19631d76be414034cbe93b85bbd7c118ce18eada
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Tue Feb 13 02:00:36 2024 +0200
+
+    feat: update docs with component props
+
+commit f35c9db479dbd610c0d1fc15449ea94a4afd27da
+Author: Bruno Rodrigues <brunocroh@gmail.com>
+Date:   Mon Feb 12 20:23:05 2024 -0300
+
+    fix: image move when dragged
+
+commit cbbe155d56b4303dbedd27748f31f4be3ac88deb
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Mon Feb 12 23:35:52 2024 +0200
+
+    fix: hydration local storage fix
+
+commit af6284e6edbcdda83e0288abc1d27a53f707cf9f
+Merge: fe078d2e 74dc2c8c
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Mon Feb 12 22:13:22 2024 +0200
+
+    Merge branch 'main' of https://github.com/steven-tey/novel
+
+commit fe078d2e6cc8ca015697d394251e750650b4a1d0
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Mon Feb 12 22:12:44 2024 +0200
+
+    feat: export EditorContentProps
+
+commit 62a5dbecbc292a3b3853413bf8f6037d53514301
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Mon Feb 12 22:12:06 2024 +0200
+
+    feat: add components docs
+
+commit 3087add437eb118b9e408ee5c95f2e1d3b81c8de
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Mon Feb 12 21:21:38 2024 +0200
+
+    feat: add slash command docs & cleanup web
+
+commit 74dc2c8c28a94fcbb383c768b0e6c13b8dcdc947
+Merge: 03ba8848 daffe6cd
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Mon Feb 12 14:07:17 2024 +0200
+
+    Merge pull request #286 from brunocroh/fix/drag-handler-dark-mode
+    
+    fix: update dark mode class to drag handler component
+
+commit daffe6cd24f51c517729581a4af121f98d78b80e
+Author: Bruno Rodrigues <brunocroh@gmail.com>
+Date:   Mon Feb 12 08:19:10 2024 -0300
+
+    fix: update dark mode class to drag handler component
+
+commit 03ba88482a94a6d95e417d76559931d10a8c7b27
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Mon Feb 12 11:18:08 2024 +0200
+
+    fix: release canary & remove unused
+
+commit 01cc1834f3aeb40217bc4e6a625d9f519864a9a6
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Mon Feb 12 03:16:21 2024 +0200
+
+    feat: add tailwind usage guide
+
+commit 0d4ad9c0767f2423496d642773e37d24abadc89b
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Sun Feb 11 17:04:36 2024 +0200
+
+    feat: add vercel rewrite config
+
+commit cd72180ba40a28695357b9ef06340bb659bfd364
+Merge: 75d77cda a352bc13
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Fri Feb 9 20:22:50 2024 +0200
+
+    Merge pull request #284 from andrewdoro/add-docs
+    
+    feat: add docs app
+
+commit a352bc13a73c02e60003f73778c9d2de66478091
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Fri Feb 9 20:17:37 2024 +0200
+
+    fix: rename to docs
+
+commit a65285e43ccdddd6b5a37dbd5da6e5112045da71
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Fri Feb 9 20:16:46 2024 +0200
+
+    feat: add starter minify
+
+commit 75d77cda5517702f612f27b256ada167607716f8
+Merge: b4526fc6 fcda4447
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Fri Feb 9 20:11:49 2024 +0200
+
+    Merge pull request #136 from andrewdoro/main
+    
+    RFC: Headless core components & imperative support
+
+commit fcda4447faa3442e0a73b5f34e744e75199ad808
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Fri Feb 9 20:00:37 2024 +0200
+
+    chore: remove old core
+
+commit 11e41d45b377c01bace55a66cde206bd1ce4ac67
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Fri Feb 9 19:34:06 2024 +0200
+
+    chore: small cleanup components
+
+commit af2b9a40eb133e033a89d4dae4023cac2b566050
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Fri Feb 9 18:50:06 2024 +0200
+
+    fix: add types & cleanup next
+
+commit b66afb79b2542fe73c1bbbbb2b0b539e0cf039b6
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Fri Feb 9 18:23:58 2024 +0200
+
+    fix: close openai modal
+
+commit c2fa92ff0f6729bdcc5c4d3d9802b58cc017ef13
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Fri Feb 9 17:30:22 2024 +0200
+
+    feat: add ollama config
+
+commit d27a5729040a798a61cfd781cda7510e6e9c5a1e
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Fri Feb 9 12:13:25 2024 +0200
+
+    fix: add modal to popover
+
+commit 85ac317b5cd6ce8837b51f8c02123e996af550c3
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Fri Feb 9 11:59:18 2024 +0200
+
+    feat: refactor using shadcn ui
+
+commit 3a563336075dc57156a8346f8b5f91d70ddbe769
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Fri Feb 9 09:16:01 2024 +0200
+
+    fix: add comment for todo
+
+commit f03025eaa83af36ec7302e30fba0476a7b276f40
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Thu Feb 8 23:52:03 2024 +0200
+
+    chore: fix more types
+
+commit 8e60398c7ad635734db91ccc58aa9352250325ff
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Thu Feb 8 23:36:37 2024 +0200
+
+    chore: disable old novel build
+
+commit fead3325f0813fbaaa894bff3a144e60f1494047
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Thu Feb 8 22:24:44 2024 +0200
+
+    feat: add wip ai example
+
+commit fc0c45d8eaba0fd7e79867b95bd1d5dfe9d7f784
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Thu Feb 8 21:06:21 2024 +0200
+
+    feat: cleanup next app
+
+commit db8eb960b0e6c890021e92620e0373b42c74d267
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Thu Feb 8 09:35:56 2024 +0200
+
+    feat: cleanup remaining extensions
+
+commit ded1012cd1a44ef1e95658db9d399281b8acb758
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Wed Feb 7 21:20:46 2024 +0200
+
+    fix: fix command item type
+
+commit 3c9e491c91b73d5bc469476e47c67c0194b908a6
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Wed Feb 7 21:19:02 2024 +0200
+
+    feat: use cmdk for command & add syntethic events
+
+commit faf8c64b22f58d539fe98fc26c7fcd2f06b06d9a
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Wed Feb 7 13:44:45 2024 +0200
+
+    feat: add multiple package entries
+
+commit 3521707d32434db85c1de64a4bfd3333beda3b7d
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Mon Feb 5 01:13:47 2024 +0200
+
+    feat: refactor composable react components
+
+commit bf71749d61c4fb0fb05b202474df206e2333c488
+Merge: 4f3f1330 b4526fc6
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Mon Jan 29 09:35:49 2024 +0200
+
+    Merge branch 'steven-tey:main' into main
+
+commit 62b70c189b74f4e2c4a6c9245c71d81334f7893a
+Author: Justin Juno <50022106+justinjunodev@users.noreply.github.com>
+Date:   Wed Jan 24 14:18:46 2024 -0600
+
+    remove .md extension from license link in README
+
+commit b4526fc63175caed02bdbfbee490e87b3466dd1c
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Oct 18 17:51:32 2023 -0700
+
+    rm .github
+
+commit 8ae8b3bfe02920ba21c79a4d05927119e07bc6a1
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Oct 3 10:33:26 2023 -0700
+
+    bump version
+
+commit 7ba727571b18f118be24aa38ff0e0f928c9ef544
+Merge: 5444f6f3 e46fe0ed
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Oct 3 09:54:29 2023 -0700
+
+    Merge pull request #191 from steven-tey/transform-pasted-markdown
+
+commit e46fe0ed1290f481c89115ecd49ddea18bd96e9b
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Oct 3 09:52:31 2023 -0700
+
+    Added support for transforming pasted markdown text
+
+commit 5444f6f3a46319a71bc4ae859d075696b2fc8ee1
+Merge: d1d5ff83 fded810e
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Oct 3 09:47:24 2023 -0700
+
+    Merge pull request #190 from steven-tey/provider
+
+commit fded810e21d31d27dc7d2455901f2c5ea74c581e
+Merge: 2f1fe0e9 d1d5ff83
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Oct 3 09:47:12 2023 -0700
+
+    Merge branch 'main' into provider
+
+commit 2f1fe0e9408d259d837f2f8e3192fa074a3a011b
+Merge: 2a5d6c5f 849b3faf
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Oct 3 09:46:09 2023 -0700
+
+    Merge branch 'main' into provider
+
+commit d1d5ff83ef5d4e1a2a1373494b4b95d04d5c3d3d
+Merge: 849b3faf 2e007615
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Oct 3 09:43:48 2023 -0700
+
+    Merge pull request #171 from tjwelde/tw-fix-extensions-type
+
+commit 2a5d6c5f13ef39cf2ebc5b24f0e5a47d2d828c8e
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Oct 3 09:41:33 2023 -0700
+
+    Create context provider for storing `/api/generate` endpoint
+
+commit 2e0076158d36899dc5d7b2b60055c0cbe1bd8063
+Merge: 62ba353e baac0529
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Oct 3 09:25:28 2023 -0700
+
+    Merge branch 'main' into pr/171
+
+commit 849b3faf544bf98908d49d1d954bdd45f093f200
+Merge: baac0529 17c1ca9e
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Oct 3 09:25:17 2023 -0700
+
+    Merge pull request #161 from eyalcohen4/fix/tailwind-override
+
+commit 17c1ca9ea2b1790d7bbb7ec89c1674f8b222bf40
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Oct 3 09:17:30 2023 -0700
+
+    fix prose
+
+commit 5fedf93a304a11b1798eecae7b4044d0d459dece
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Oct 3 08:43:35 2023 -0700
+
+    fixed loadingcircle
+
+commit d5ae4648880583ccedeab13d391a676fef86da04
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Oct 3 08:27:01 2023 -0700
+
+    fix typo
+
+commit 10f58039ccc2725a26a0d8e3cd1e6aab88e0f36d
+Merge: 721e86e7 baac0529
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Oct 3 08:25:39 2023 -0700
+
+    Merge branch 'main' into pr/161
+
+commit baac052945c979078370284767ae1eb0fbea1cfd
+Merge: 14334589 e6c413ab
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Sep 26 13:13:12 2023 -0700
+
+    Merge pull request #139 from krehak/main
+
+commit e6c413ab29fda73cb9169aceab2de7e40ff66de8
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Sep 26 13:10:21 2023 -0700
+
+    bump version
+
+commit 34b688d096f9fe0ec3a5b568e47e238a12eb73cd
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Sep 26 13:09:16 2023 -0700
+
+    fix
+
+commit e752e3719ec853e51255324332f30c197fef29d2
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Sep 26 13:03:40 2023 -0700
+
+    rename to disableLocalStorage
+
+commit c3a67349bbd81c720ecf84f84fa38fa630782b76
+Merge: 9e8379f1 14334589
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Sep 26 12:58:57 2023 -0700
+
+    Merge branch 'main' into pr/139
+
+commit 62ba353e5c8607f1786c96d0321868adfa5ba6fc
+Author: Timo Welde <tjwelde@gmail.com>
+Date:   Fri Sep 22 17:44:47 2023 +0200
+
+    feat: use more general type for extensions option
+
+commit 721e86e7246566a1c196489af704d28b03a1c24f
+Author: Eyal Cohen <eyalcohen4.ec@gmail.com>
+Date:   Wed Sep 13 19:12:38 2023 +0200
+
+    Prefix tailwind classes in the core package
+
+commit 1433458976d4a30916fca6a14ecd9413085ef5fa
+Merge: b77c596b 6efaee4d
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Sat Sep 9 09:22:38 2023 -0700
+
+    Merge pull request #151 from p1yu5h/fix/draggable-icon
+
+commit 6efaee4da79722ac6339d9546dbf5b0b1d76cfe5
+Author: Piyush Satija <piyush.satija@gmail.com>
+Date:   Thu Sep 7 01:41:55 2023 +0530
+
+    fix: draggable icon is misplaced in ordered and unordered lists (#146)
+
+commit 4f3f1330ffe1959ccd2ca6b7ae26843ba76a42fc
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Wed Sep 6 09:58:15 2023 +0300
+
+    fix: link dropdown
+
+commit 2b812ea94bf6fb6f9549d8d281bea441ae0f734c
+Merge: 42dc95cd b77c596b
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Wed Sep 6 09:55:46 2023 +0300
+
+    Merge pull request #2 from steven-tey/main
+    
+    fix: link-selector
+
+commit b77c596bcd52a1797c5031b3ab76c6baed49f97f
+Merge: 9dd424f8 228396b6
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Sep 5 18:51:26 2023 -0700
+
+    Merge pull request #141 from colinricardo/main
+
+commit 228396b68f602afd85a9c05e26ee89fed28dc247
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Sep 5 18:47:49 2023 -0700
+
+    bump version
+
+commit 6fd630aa210963740f0f2b61016ef5c4597ac2d8
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Sep 5 18:47:05 2023 -0700
+
+    found the root cause (#126)
+
+commit 5beb1052db396222f5feddc00f6e6458859930ed
+Author: Colin Ricardo <21294951+colinricardo@users.noreply.github.com>
+Date:   Wed Sep 6 01:08:39 2023 +0100
+
+    fix: link-selector
+
+commit 42dc95cdbcca2825082b797852839313b187e4ad
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Tue Sep 5 22:26:06 2023 +0300
+
+    fix: remove unused styles
+
+commit feecc7af696050093857a6a0eb4c846f8a4ad1df
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Tue Sep 5 22:15:34 2023 +0300
+
+    fix: fix onHidden callback
+
+commit 9e8379f16df7cf3c8ab68e61c8295a4f001cce32
+Author: Patrik Krehák <patrik@krehak.com>
+Date:   Tue Sep 5 16:43:18 2023 +0200
+
+    Disable local storage option
+    
+    Fixes issue #137
+
+commit 978a29fc202d2a8e497ac256e73875c891e7bfa1
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Tue Sep 5 15:46:23 2023 +0300
+
+    feat: fix app file directory
+
+commit c7dfb18dc103d7a050c4ada4a0dbb9174b34aa08
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Tue Sep 5 14:15:52 2023 +0300
+
+    fix: fix types errors
+
+commit adce09fa20c54d2b7cf00720717dacd517cf8b60
+Author: andrewdoro <elfandreis@gmail.com>
+Date:   Tue Sep 5 13:43:49 2023 +0300
+
+    fix: add initial configuration
+
+commit 9e171f0548eb0260fb82b46608f72c9999ed1e5f
+Merge: 271240d4 9dd424f8
+Author: Andrei Dorobantu <elfandreis@gmail.com>
+Date:   Tue Sep 5 11:06:56 2023 +0300
+
+    Merge pull request #1 from steven-tey/main
+    
+    merge header repo
+
+commit 9dd424f813fe7196bcbda89684435fcf620e0051
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Mon Sep 4 16:35:04 2023 -0700
+
+    bump to 0.1.19
+
+commit 7cf51bf7f6e5fe83f12859483cfa6ebd2b61b5fc
+Merge: a273b69e c709d1aa
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Mon Sep 4 16:29:28 2023 -0700
+
+    Merge pull request #131 from lakbychance/qol/improve-keyboard-selection
+
+commit a273b69e071ae3196bd90410d6251147d76374f9
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Mon Sep 4 16:28:12 2023 -0700
+
+    bump to 0.1.18
+
+commit c709d1aa4d2f93e5bb68af2474bb6f472c53541d
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Mon Sep 4 16:27:16 2023 -0700
+
+    updated readme
+
+commit c2892fbd681d36c7cebcdc8fbcbfaada161cf2a4
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Mon Sep 4 15:58:19 2023 -0700
+
+    fix eslint errors
+
+commit 73e053031a989e09e989f0094379dd3b470ec3e7
+Merge: cfd7be4d 89f8d307
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Mon Sep 4 15:52:00 2023 -0700
+
+    Merge branch 'main' into qol/improve-keyboard-selection
+
+commit cfd7be4d260f51ae565c5f349162df3de81cdb2f
+Merge: e617d125 271240d4
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Mon Sep 4 15:51:13 2023 -0700
+
+    Merge branch 'main' into pr/131
+
+commit 89f8d30713a84a682db0697193c2a7e94225e40e
+Merge: 271240d4 d2f48b45
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Mon Sep 4 15:50:59 2023 -0700
+
+    Merge pull request #126 from MomenSherif/feat/novel-drag-and-drop
+
+commit d2f48b4505a1122d81c403ce1a96a4872fb1d28b
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Mon Sep 4 15:48:17 2023 -0700
+
+    added drag active styles, updated readme, ran prettier
+
+commit 6578c138003d650afe67c4617382e78028ac7c0d
+Merge: 0507f22a 271240d4
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Mon Sep 4 15:38:47 2023 -0700
+
+    Merge branch 'main' into pr/126
+
+commit 271240d4776fdec9b54758afa0cc40615a614ffe
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Sun Sep 3 13:31:33 2023 -0700
+
+    fix readme
+
+commit 742fdab18ac63c0659d79ecb2993128e0991963a
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Sun Sep 3 13:30:03 2023 -0700
+
+    switch to apache-2.0 license
+
+commit e617d1252abaf4fd8ba5b24dd7b36ca955e9547f
+Author: Lakshya Thakur <lapstjup@gmail.com>
+Date:   Sun Sep 3 18:14:21 2023 +0530
+
+    Quality of life: Improve keyboard selection to first restrict to node's boundary
+
+commit c0b3077e72243a798ca66774358a6a5e6436ae5f
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Sat Sep 2 16:14:20 2023 -0700
+
+    Update README.md
+
+commit 160dd1fe526d4495970d9831a9601c93ef8ba5bd
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Sat Sep 2 09:38:19 2023 -0700
+
+    added redirect to vscode
+
+commit 8feb3190f2c9730ea4302ca4028b16f2e87c9e11
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Sep 1 17:00:52 2023 -0700
+
+    fixed url
+
+commit cffffbbf4db12eaf7b507e5b4e2c90eb97243c0c
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Sep 1 16:55:42 2023 -0700
+
+    release 0.1.17
+
+commit 0507f22a6f69303a0c7823cf30f63d639459d71a
+Author: Mo'men Sherif <momensherif.2019@gmail.com>
+Date:   Sat Sep 2 01:52:39 2023 +0300
+
+    fix: drag not activated for first node
+
+commit 7e56963c445a429dcd6f2f62acda9676a67cb388
+Author: Mo'men Sherif <momensherif.2019@gmail.com>
+Date:   Sat Sep 2 01:39:36 2023 +0300
+
+    feat: drag and drop extension for tiptap editor
+
+commit dc796ce96c45018bca5811d616724f3660545919
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Sep 1 14:51:09 2023 -0700
+
+    Create FUNDING.yml
+
+commit 32ab6e63a3e4d47191fe6a9906fea16fb5a49ea3
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Sep 1 12:14:58 2023 -0700
+
+    bump to 0.1.16
+
+commit 4dc910583d2bb1cdc3cf34d2fb345d31bf44f41d
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Sep 1 12:06:46 2023 -0700
+
+    bump version
+
+commit 9810e20875d55cac495f0aae82ba8d612a5aa5ea
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Sep 1 12:05:42 2023 -0700
+
+    updated defaultValue type
+
+commit b74cddac3f32ae297fe0238b7781e90df300a467
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Sep 1 11:56:15 2023 -0700
+
+    updated readme, bump to 0.1.14
+
+commit fdb5cfd04309c0517c445dacbc141cf80a22f7a9
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Sep 1 11:43:00 2023 -0700
+
+    updated to 0.1.12
+
+commit 513c32d23a7a1039a1ccd13e99036a0dc06df4fd
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Sep 1 09:30:58 2023 -0700
+
+    Upgraded deps, improved README
+
+commit a0608fe7e9c653e44ce6d022973dd90a620868f5
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Sep 1 08:07:20 2023 -0700
+
+    added redirects
+
+commit 74189c3b12b7675425b64848fe8810239d202300
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Sep 1 07:55:10 2023 -0700
+
+    published 1.0.8
+
+commit ff4e8c0e88ec7d7288d728c70a83e91cfd9220b6
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Aug 31 21:37:37 2023 -0700
+
+    updated readme
+
+commit 7012788b48f2b06b6ce4ad4b116643e51ec9dfc6
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Aug 31 21:36:33 2023 -0700
+
+    fix og image
+
+commit 5f2f944a68ad17d987d3a84787bec30e15877dd0
+Merge: dba0eb17 e20f3cd9
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Aug 31 21:32:52 2023 -0700
+
+    Merge pull request #87 from eyalcohen4/main
+
+commit e20f3cd947f62d3e9577d7987a77fc6f9421fb5e
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Aug 31 21:31:37 2023 -0700
+
+    Update README.md
+
+commit 667cfb75ab38a4fe84eeec8e58fa63c8893202a1
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Aug 31 21:30:57 2023 -0700
+
+    updated README
+
+commit 6ee43736ffd230e05866430d50bd300287af8364
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Aug 31 21:25:31 2023 -0700
+
+    final fixes
+
+commit 3fdad3734bf8642a4232626f33f3ac4bb31234f0
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Aug 31 19:38:55 2023 -0700
+
+    change font-display to font-title
+
+commit 0d812b6abe805b818196fed6f6bcbe9e88d11ec4
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Aug 31 19:16:11 2023 -0700
+
+    export styles.css
+
+commit 871d67dd7da3b0bb470077b154b2a24babaa1cfe
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Aug 31 19:08:29 2023 -0700
+
+    export types alongside package
+
+commit fae64931ff3b21f5e62a2a70475a76a6f83f54cd
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Aug 31 17:46:01 2023 -0700
+
+    change to named export
+
+commit e603ba04f332e7e76646a4170f44024b33310ccb
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Aug 31 17:14:26 2023 -0700
+
+    Update package.json
+
+commit 497753a238a5278badd26b1a0b9ae46597b22e1e
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Aug 31 17:13:41 2023 -0700
+
+    rename to core
+
+commit 93e87581722c818f5aeafc0829899d5c60112063
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Aug 31 16:42:20 2023 -0700
+
+    edited readme
+
+commit b6a7537f1d2caf0e08f9f22ce13601559acf05fa
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Aug 31 16:40:45 2023 -0700
+
+    remove playwright for now
+
+commit 5a91037e7e6a02e9d4a3700cb6bafc40db1331b4
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Aug 31 16:36:59 2023 -0700
+
+    standardize naming convention
+
+commit e4eba50c27fd676fc4230a647dc1de2289efafa9
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Aug 31 16:08:03 2023 -0700
+
+    remove duplicate components
+
+commit 0a97e2d74aaa73c49b9156148919d1fb38bd5869
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Aug 31 14:01:46 2023 -0700
+
+    fixed types
+
+commit 235a7bc4361d69f92d5a24791d07c6cb47017717
+Merge: 096a08ae dba0eb17
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Aug 31 13:20:12 2023 -0700
+
+    Merge branch 'main' into pr/87
+
+commit dba0eb17c7fc40ee2054e530b6caccb3d8db19ed
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Sun Aug 27 16:49:50 2023 -0700
+
+    Update README.md
+
+commit 730c415f27a254e4ed1d6ea674526e27fc7aae88
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Sun Aug 27 16:47:30 2023 -0700
+
+    Added Repobeats
+
+commit 44e7775b0b719a667ba3d58cb6acd60f72e8568c
+Merge: ed63de21 f7541f0e
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Aug 25 22:27:06 2023 -0500
+
+    Merge pull request #112 from SmookeyDev/main
+
+commit f7541f0eaa0c2e70ec5e435d37c3f1f26769ef33
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Aug 25 22:26:11 2023 -0500
+
+    Update link-selector.tsx
+
+commit 998802f0d7c64a52a0c9db1ae33250a7522fd0d5
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Aug 25 22:24:43 2023 -0500
+
+    Update index.tsx
+
+commit 899930f0431d72fa56434c9d5fb5bf9f0f4b9b23
+Merge: ba65045e ed63de21
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Aug 25 22:17:28 2023 -0500
+
+    Merge branch 'main' into pr/112
+
+commit ed63de21cea8e1924fb6b7f3d80a0bcf8b4aa890
+Merge: 06cc16fc 153bbf42
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Aug 25 22:13:29 2023 -0500
+
+    Merge pull request #114 from ohhoney1/fix-ai-repeats
+
+commit 153bbf42f856b2bfe378ecb5cb66d5150e5db81c
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Aug 25 22:13:00 2023 -0500
+
+    upgraded next & ai
+
+commit 864f383054c3d75e64d7c46acaea13deed9d380e
+Merge: 1ef44a12 06cc16fc
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Aug 25 22:07:08 2023 -0500
+
+    Merge branch 'main' into pr/114
+
+commit 06cc16fcc752827c9783982747c744ebebebae92
+Merge: 21969909 6d8c774a
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Aug 25 22:03:40 2023 -0500
+
+    Merge pull request #115 from prathameshjchavan/fix/collision-detection-for-selector-dropdowns
+
+commit 6d8c774aa783e9b5e0cd164a976ddc855b4e2ef8
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Aug 25 22:02:24 2023 -0500
+
+    added radix popover to node selector as well
+
+commit 98e9b4e02ab0fb7e5f9083c0b5bbf880e970c552
+Author: Prathamesh Chavan <prathamesh.chavan216@gmail.com>
+Date:   Sun Aug 20 18:45:29 2023 +0530
+
+    Fixed Popover content not interactive
+
+commit bc6dd1656dcdbbc0236f81b2f2b10215e499d5ef
+Author: Prathamesh Chavan <prathamesh.chavan216@gmail.com>
+Date:   Sun Aug 20 12:00:34 2023 +0530
+
+    Fixed Collision detection for Selector dropdowns
+
+commit 1ef44a120b9c1624612afbdd8d66cd888e699156
+Author: ohhoney1 <1269075501@qq.com>
+Date:   Fri Aug 18 11:17:57 2023 +0800
+
+    fix: in AI mode, add isLoading to avoid duplicate requests and responses
+
+commit ba65045eca3bfc65eecec7ebdf762c75e4732d2e
+Author: Ícaro Sant'Ana <icarosantana6477@gmail.com>
+Date:   Sat Aug 12 18:10:25 2023 -0300
+
+    chore: move EditorBubbleMenu to outside Editor div, to prevent wrong focus on link-selector input
+
+commit 2a9dc0ebf2d5c73212214f0e4dbf88b751cc57ae
+Author: Ícaro Sant'Ana <icarosantana6477@gmail.com>
+Date:   Sat Aug 12 18:07:42 2023 -0300
+
+    fix: link-selector
+
+commit ec42dde8216de199ddd5d68ac362be49c3b91403
+Author: Ícaro Sant'Ana <icarosantana6477@gmail.com>
+Date:   Sat Aug 12 18:01:44 2023 -0300
+
+    fix: refactory link-selector, to avoid send form if editor inside on form
+
+commit 91612410ba46a312fa9070f3519f07d4d26bb3cf
+Author: Ícaro Sant'Ana <icarosantana6477@gmail.com>
+Date:   Sat Aug 12 17:47:46 2023 -0300
+
+    fix: color-selector buttons
+
+commit 34f87f39190616a5b46b8e1dbf1d2c90c6b94c89
+Author: Ícaro Sant'Ana <icarosantana6477@gmail.com>
+Date:   Sat Aug 12 17:47:33 2023 -0300
+
+    fix: node-selector buttons
+
+commit c1310b1cb756053cacc63791db5bb59c7463a342
+Author: Ícaro Sant'Ana <icarosantana6477@gmail.com>
+Date:   Sat Aug 12 17:28:35 2023 -0300
+
+    fix: add type "button" on bubble-menu buttons to avoid send form
+
+commit 096a08aeb40a8f54195d42a9e367fa315305ca9f
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Aug 9 14:53:49 2023 -0500
+
+    refactor playwright tests
+
+commit 52ec26d5aeabec09f7e1b23d1619b2b2aa4b1ce3
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Aug 9 14:43:44 2023 -0500
+
+    fixed some eslint errors
+
+commit bd1115d26ad9ad6ede80fa08bbff5f0eb03aab4b
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Aug 9 14:31:04 2023 -0500
+
+    resolve merge conflicts
+
+commit 1f13fadb42348bd83979b0ee28d94f0fec835d8c
+Merge: 1ae28212 21969909
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Aug 9 14:28:49 2023 -0500
+
+    Merge branch 'main' into pr/87
+
+commit 21969909a6e667e933f16141ba878449af1f7bb5
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Aug 9 14:18:06 2023 -0500
+
+    update deps
+
+commit f476d82d602398e772d08bc4088eeaf55d845c6d
+Merge: c09bb7ea 5cbbe279
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Aug 9 14:10:44 2023 -0500
+
+    Merge pull request #100 from AidanDaniel97/main
+
+commit 5cbbe2799b0385bda3945ba0ed64db515d25110f
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Aug 9 14:10:02 2023 -0500
+
+    moved to a utility function
+
+commit 425564176c57c95df5a73d9b2191285d6c3dc963
+Merge: 9659a08f c09bb7ea
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Aug 9 14:04:59 2023 -0500
+
+    Merge branch 'main' into pr/100
+
+commit c09bb7eaf481304cb066fe65fde6d65d4ee01423
+Merge: fcc9dd39 825203d1
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Aug 9 13:58:10 2023 -0500
+
+    Merge pull request #94 from vincent0426/main
+
+commit 825203d1109d51d71bff1a4ede54fddc128f1f5c
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Aug 9 13:57:37 2023 -0500
+
+    styling fixes
+
+commit b6d1e48c4263a56adcecea872ebf600d5668b721
+Merge: 9e579869 fcc9dd39
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Aug 9 13:35:35 2023 -0500
+
+    Merge branch 'main' into pr/94
+
+commit fcc9dd39052fbe42cca8fa3c8f1ddce8b2f0ccca
+Merge: 8a0973ea 6cc2c403
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Aug 9 13:33:21 2023 -0500
+
+    Merge pull request #93 from replayio-public/0711-add-tests
+
+commit 8a0973eac0e1745d42d35ac6f7c5dd054fdb5e09
+Merge: cea4dae3 2d2cef47
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Aug 9 13:31:07 2023 -0500
+
+    Merge pull request #106 from dhairyathedev/main
+
+commit 2d2cef47cf52a2c90c5a05a9f1cb9c9e68e9aff6
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Aug 9 13:30:54 2023 -0500
+
+    small change
+
+commit 754685ba91b7a8b7cd5d1f4666f24e6066261612
+Merge: e8b507b4 56652fc2
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Aug 9 13:30:08 2023 -0500
+
+    Merge branch 'main' into pr/106
+
+commit cea4dae30cd0e189394b0bbffb3f63a6d45c1c94
+Merge: 56652fc2 0b8a640d
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Aug 9 13:28:34 2023 -0500
+
+    Merge pull request #88 from yash1744/main
+
+commit 0b8a640d183ab9c2ecc8e40d5a52f7607ce400d0
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Aug 9 13:27:49 2023 -0500
+
+    change status codes
+
+commit ac220755f9ae882112fa4588f994e7c7326d6339
+Merge: bb76e748 56652fc2
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Aug 9 13:25:56 2023 -0500
+
+    Merge branch 'main' into pr/88
+
+commit 56652fc21d207ff0c68a368e3627470422d0cd57
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Aug 9 13:22:37 2023 -0500
+
+    Update README.md
+
+commit 1ae28212c9a480fdd92c368116b94e2d9648508c
+Author: Eyal Cohen <eyalcohen4.ec@gmail.com>
+Date:   Sat Jul 29 17:52:33 2023 +0300
+
+    novel package props
+
+commit e8b507b4135034d834f6a0b3b8a64008fac0a42d
+Author: Dhairya Shah <dtshah24022006@gmail.com>
+Date:   Sat Jul 29 08:44:51 2023 +0000
+
+    fixed empty "link" input string
+
+commit 8a1b0a04852f61fd554f295fe72363dcb8512fb3
+Merge: ccd4d965 33ee7df4
+Author: Eyal Cohen <eyalcohen4.ec@gmail.com>
+Date:   Sun Jul 23 12:02:30 2023 +0300
+
+    sync with main
+
+commit ccd4d96503c91d08d76c5c89067eac12e1e2ef36
+Author: Eyal Cohen <eyalcohen4.ec@gmail.com>
+Date:   Sun Jul 23 01:42:05 2023 +0200
+
+    monorepo tailwind
+
+commit 9e579869c4db5508fa90e92a245caf4f883eedce
+Author: Vincent <0426vincent@gmail.com>
+Date:   Sat Jul 22 00:17:13 2023 +0800
+
+    fix: rm inline to prevent cursor focusing next to the image
+
+commit 744457e4b9cbd6f126271644af175a86d53aa8d2
+Author: Vincent <0426vincent@gmail.com>
+Date:   Sat Jul 22 00:10:01 2023 +0800
+
+    fix: refocus img after resize
+
+commit 9659a08fef16c1b0cff49bd8bdc13b7ccd441b77
+Author: AidanDaniel97 <aidandaniel97@gmail.com>
+Date:   Thu Jul 20 20:30:56 2023 +0100
+
+    Update link selector to format links
+    
+    The link selector is working correctly, as it's currently set to type="url" however Notion has this set to type="text" meaning browser validation isn't run on the input to check it is a valid URL. This means in notion typing google.com will link to http://google.com and allow the domain to handle http > https redirection. I have added a snippet to the form submission which will trim the string and then append http:// if it doesn't start with it already as well as changing the type to text on the input field.
+
+commit 1dd740befa5305208ec84fa4dd2a78f591ef6f90
+Author: Vincent <0426vincent@gmail.com>
+Date:   Fri Jul 14 10:26:54 2023 +0800
+
+    style: only left and right draggable points
+
+commit 9de0aae94bcc6b58c3daa65819e6e15abfb77f31
+Author: Vincent <0426vincent@gmail.com>
+Date:   Thu Jul 13 23:26:12 2023 +0800
+
+    feat: add image resizer
+
+commit 6cc2c403ef0ff65a107fa8e780bfd5722d6c5e95
+Author: Jaril <jarilvalenciano@gmail.com>
+Date:   Wed Jul 12 13:40:13 2023 -0700
+
+    Remove comments and make replays public
+
+commit 9d7b50ec7844fb716c672225190ebdbc11609412
+Author: Jaril <jarilvalenciano@gmail.com>
+Date:   Wed Jul 12 12:42:40 2023 -0700
+
+    Add todos
+
+commit b149e98d3883943b3e07ca12082abb57a362b94e
+Author: Jaril <jarilvalenciano@gmail.com>
+Date:   Tue Jul 11 15:05:55 2023 -0700
+
+    Publish sourcemaps
+
+commit b0070995d4e1b6a637efea05b3cbacc2d4013f17
+Author: Jaril <jarilvalenciano@gmail.com>
+Date:   Tue Jul 11 14:25:12 2023 -0700
+
+    Run replay in CI
+
+commit df46864af0b6859ee19b369e88093c43fe39ec49
+Author: Jaril <jarilvalenciano@gmail.com>
+Date:   Tue Jul 11 14:23:16 2023 -0700
+
+    Install replay
+
+commit af76eea0da3abc658085dcb24b8829986ee560da
+Author: Jaril <jarilvalenciano@gmail.com>
+Date:   Tue Jul 11 13:53:43 2023 -0700
+
+    Fix test script
+
+commit 54cc71e701dfbef96abc9c75658c265aed2ab88b
+Author: Jaril <jarilvalenciano@gmail.com>
+Date:   Tue Jul 11 13:00:53 2023 -0700
+
+    Pass in flags correctly
+
+commit 45c1677649b16bebd51e90fa379bfede2b58fd39
+Author: Jaril <jarilvalenciano@gmail.com>
+Date:   Tue Jul 11 12:58:35 2023 -0700
+
+    Add pnpm/action-setup
+
+commit 8d5d81ace6a5a64a6e0e1cc93a7baed48ccde1ef
+Author: Jaril <jarilvalenciano@gmail.com>
+Date:   Tue Jul 11 12:54:02 2023 -0700
+
+    Add github workflow
+
+commit da31eb146c49bbd183621a2764ca68bfcbc48ccf
+Author: Jaril <jarilvalenciano@gmail.com>
+Date:   Tue Jul 11 12:52:09 2023 -0700
+
+    Add novel specific tests
+
+commit 669b21ba212e4800b75812cc9ad0d0208609c6a4
+Author: Jaril <jarilvalenciano@gmail.com>
+Date:   Tue Jul 11 12:18:26 2023 -0700
+
+    Only run tests in chromium
+
+commit eb51b1f5457129c877bb41a960d57231eb3cff0a
+Author: Jaril <jarilvalenciano@gmail.com>
+Date:   Tue Jul 11 12:17:09 2023 -0700
+
+    Add docs for running tests
+
+commit a486c21e5385bebb711774ef9f2bf7572e2c6d34
+Author: Jaril <jarilvalenciano@gmail.com>
+Date:   Tue Jul 11 12:13:06 2023 -0700
+
+    Install and initialize playwright
+
+commit 65c03fbaa778194f0dc3d3e5b949a40af4e9e564
+Author: Jaril <jarilvalenciano@gmail.com>
+Date:   Tue Jul 11 12:07:14 2023 -0700
+
+    Install locally
+
+commit 33ee7df4d0235c7b9debf9847ccbdc17958579fd
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Mon Jul 10 16:51:29 2023 -0500
+
+    upgrade sonner
+
+commit ccbf9c2ee4d8d7ea83c2820b5c4eb44fc62cb716
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Mon Jul 10 13:41:55 2023 -0500
+
+    upgraded sonner
+
+commit bb76e7482b7424639f101a165de65fde1a5b1e4b
+Author: yash1744 <yashwanthboyapally@gmail.com>
+Date:   Sun Jul 9 16:01:10 2023 -0500
+
+    added no OPENAI key set support
+
+commit 4865a29e99db6fb0745246f67090cf790e8281ae
+Author: Eyal Cohen <eyalcohen4.ec@gmail.com>
+Date:   Sun Jul 9 23:57:56 2023 +0300
+
+    sync with main
+
+commit 8ff1605f718f771dbf460b478abd6ccbb9878cd6
+Merge: a028619b f074b018
+Author: Eyal Cohen <eyalcohen4.ec@gmail.com>
+Date:   Sun Jul 9 23:51:04 2023 +0300
+
+    sync with main
+
+commit a028619bfa7b233a11d995b69869988f957779e1
+Author: Eyal Cohen <eyalcohen4.ec@gmail.com>
+Date:   Sun Jul 9 23:37:50 2023 +0300
+
+    remove node_modules
+
+commit da51fa2263a719d860c5e0ba7262e008d5b0b7fd
+Author: Eyal Cohen <eyalcohen4.ec@gmail.com>
+Date:   Sun Jul 9 23:36:33 2023 +0300
+
+    remove node_modules
+
+commit ad701da48bd865ec29af665c4d03fae62aec573d
+Author: Eyal Cohen <eyalcohen4.ec@gmail.com>
+Date:   Sun Jul 9 23:34:36 2023 +0300
+
+    basic monorepo working
+
+commit f074b0189992050be3e64d5a180f3f2f86753f45
+Merge: d3f8d17c 19c559d4
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jul 7 23:32:44 2023 -0500
+
+    Merge pull request #71 from hernancito/improve-image-uploading-ux
+
+commit 19c559d4be5fa19dac992037d7848e2a97d1cdd1
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jul 7 23:18:50 2023 -0500
+
+    handle invalid file types
+
+commit 58ff43ea43cc36e7a88c957f7fe2fe3c2577d568
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jul 7 19:03:05 2023 -0500
+
+    added loading spinner
+
+commit 3e3aa80d0d90bb944416be1d01733a6b9359c858
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jul 7 17:34:55 2023 -0500
+
+    forgot to add pos for slash command image uploads
+
+commit 0d8417dacaa24a5e0ff082a6dc1cb2b232f80cd9
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jul 7 17:32:07 2023 -0500
+
+    fix image drop position
+
+commit 6251981c81758f04e5b6cd8263600fe62fb9edb4
+Merge: 09da8aaf d3f8d17c
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jul 7 17:07:20 2023 -0500
+
+    Merge branch 'main' into pr/71
+
+commit d3f8d17c7d8436f98491bbaedc3e6b90086f4d8d
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jul 7 17:03:47 2023 -0500
+
+    downgrade prettier to 2.8 until tailwindcss plugin is fixed
+
+commit 8083b6b10fdb22d98bdb10673a2f38a4fe2d7668
+Merge: 8b9c9f3f 251a2f8b
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jul 7 16:43:47 2023 -0500
+
+    Merge pull request #81 from steven-tey/update-deps
+
+commit 251a2f8ba6e82aff7a7e6134eaee3a13c4665937
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jul 7 16:32:16 2023 -0500
+
+    Updated dependencies, added font icons
+
+commit 8b9c9f3f5d46c0856ad88fdb8e27422e918e461c
+Merge: 45f5a4e4 e87c0e2e
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jul 7 10:21:45 2023 -0500
+
+    Merge pull request #62 from Dhravya/dark-mode
+
+commit e87c0e2e52d9dfbcb278e8afdab92b0e2d1b26de
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jul 7 10:19:55 2023 -0500
+
+    change popover animation
+
+commit e81536b2c9243fb18e6e350802e4bd1dc4407a45
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jul 7 10:13:40 2023 -0500
+
+    upgrade next to canary
+
+commit e06dff3ec648e5d7f2a22c6c98ddbe2641cec2b4
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jul 7 09:48:50 2023 -0500
+
+    Added theme switcher
+
+commit 3aa35792e3a9109428f4ac5cb26e5dec33348f4f
+Merge: afd5a78d 45f5a4e4
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Jul 6 22:54:09 2023 -0500
+
+    Merge branch 'main' into pr/62
+
+commit 45f5a4e40071a44ad3ee83c9ec5aaff2b174367c
+Merge: 65cd00e9 023cfd03
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Jul 6 22:53:38 2023 -0500
+
+    Merge pull request #78 from steven-tey/improve-autocomplete
+
+commit 023cfd03c2e2d12bcf19b35000900d531d291827
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Jul 6 22:51:29 2023 -0500
+
+    Improve AI autocomplete precision by limiting the text selection till the cursor position
+
+commit afd5a78d2c9ae425019b22ea4b005d6acab6bf4b
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Jul 6 22:38:41 2023 -0500
+
+    added mono font
+
+commit 65cd00e96ebd557bb2c81946a7c26af18d257680
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Jul 6 14:11:55 2023 -0700
+
+    Update README.md
+
+commit 99656adc84ad5c7731664ce488dbcedd3ed3b55b
+Merge: f52a2743 88e8b513
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Jul 6 15:15:24 2023 -0500
+
+    Merge branch 'main' into pr/62
+
+commit 88e8b5138f131f7e0420a51c692f4b77fb4b4ad9
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Jul 6 13:08:57 2023 -0700
+
+    Remove smooth scrolling for Slash Command
+
+commit f52a27430b3553f53fafb95781f766177470e336
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Jul 6 14:41:03 2023 -0500
+
+    turn highlight colors into CSS variables too
+
+commit 5d1f60e7c521b815b5060fa0b63caaac6319263f
+Author: Eyal Cohen <eyalcohen4.ec@gmail.com>
+Date:   Thu Jul 6 21:15:48 2023 +0300
+
+    remove node_modules
+
+commit 09da8aaf3a020d276610f5af64a0821aaa8cda5c
+Author: Hernán Valdez <hernan.valdez@aerolab.co>
+Date:   Wed Jul 5 13:21:59 2023 -0300
+
+    feat: add a placeholder when uploading an image
+
+commit b78e7244fe99ef0383ce2b78a02636f1faab86a4
+Merge: 97b0c498 88d9bb70
+Author: Hernán Valdez <hernan.valdez@aerolab.co>
+Date:   Wed Jul 5 11:24:57 2023 -0300
+
+    Merge branch 'main' into improve-image-uploading-ux
+
+commit eb9fd9f68e19d599c443b89b069cca88f31e3b5e
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Jul 4 23:48:11 2023 -0500
+
+    Switch to using CSS variables instead
+
+commit cce55cdfce7ec4f87c8ccbb1dd090e3e889980b0
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Jul 4 19:34:32 2023 -0500
+
+    fixed dark mode styles
+
+commit 803b7379032f9df6bf55c28eaf7ec4605a7789a5
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Jul 4 19:21:36 2023 -0500
+
+    use next-themes for handling themes instead
+
+commit 47453ec4b25c7cf805f1f61bfbd330f956b0776f
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Jul 4 19:19:50 2023 -0500
+
+    Resolved merge conflicts
+
+commit af31df3bf9d7c3300f6bcf216b7ed9eb67c092d6
+Merge: d829c8a3 88d9bb70
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Jul 4 19:19:45 2023 -0500
+
+    Merge branch 'main' into pr/62
+
+commit 88d9bb70736bab5cc8065047698f6b8ec3cb5ae6
+Merge: 2ef6a461 4d7c4260
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Jul 4 15:59:47 2023 -0500
+
+    Merge pull request #60 from umeshjain1999/main
+
+commit 4d7c4260b6da17371afc364d76644c066516b294
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Jul 4 15:46:23 2023 -0500
+
+    removed unused funcs
+
+commit 087e9a378a46507ba170621eb1142e8cf4a6a340
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Jul 4 15:45:18 2023 -0500
+
+    Touched up styles
+
+commit 749e1c947c97b87eb2f4bf9f0401688e1b556439
+Merge: e1f905c9 2ef6a461
+Author: umeshjain1999 <ujain2601@gmail.com>
+Date:   Mon Jul 3 18:27:43 2023 +0530
+
+    Merge branch 'main' of https://github.com/steven-tey/novel
+
+commit 2b576249fa569db72c4069d81dbf1941a2bcad92
+Author: Eyal Cohen <eyalcohen4.ec@gmail.com>
+Date:   Mon Jul 3 14:41:43 2023 +0300
+
+    turborepo structure
+
+commit 2ef6a461ce6c045f5fe317c6396768a142457092
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Sat Jul 1 16:09:17 2023 -0500
+
+    removed gap
+
+commit 95e9abd63f2e0e4fe2f22d09d9477ff00413b245
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Sat Jul 1 14:33:03 2023 -0500
+
+    fix headings font further
+
+commit b337af502e3d7d41f4e02b8e7bc9488f0c5def15
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Sat Jul 1 14:30:56 2023 -0500
+
+    fix heading styles
+
+commit 1c362a2032c75b267e9ce903762a7ca59a519d7b
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Sat Jul 1 14:25:05 2023 -0500
+
+    Added font switcher and a few other hooks
+
+commit d5a3b29484e445cc01a03c8190b02ef2fc359ff3
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 30 15:27:32 2023 -0500
+
+    added max-w-full
+
+commit 1f4c30b87546fb4630f71c86fa3850cbff9f7f29
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 30 14:17:30 2023 -0500
+
+    replace classnames with clsx
+
+commit d829c8a3cda78e36412b7e488cf0ede341dc2a5c
+Author: Dhravya <dhravyashah@gmail.com>
+Date:   Fri Jun 30 18:10:32 2023 +0530
+
+    fix: remove bg-black
+
+commit 0a9273994aa52662fa4d1ce7624ac64743c92bff
+Author: Dhravya <dhravyashah@gmail.com>
+Date:   Fri Jun 30 18:06:34 2023 +0530
+
+    fix: checkmark darkmode styles
+
+commit 91e156a8a59a3c6d8e2e1e2ffa40261b560ab0d3
+Author: Dhravya <dhravyashah@gmail.com>
+Date:   Fri Jun 30 17:44:04 2023 +0530
+
+    fix: Used design tokens for consistency, only used stone colors
+
+commit e016b18d352e1abbfcf911bcdf3c167a43f7d1d6
+Merge: 9a50bcd4 96f3e48c
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Jun 29 08:16:09 2023 -0500
+
+    Merge pull request #55 from hitgo00/text-highlight
+
+commit 62e1bb5d44f088d8540be520a2c1715d2e5f29b6
+Author: Dhravya <dhravyashah@gmail.com>
+Date:   Thu Jun 29 03:26:20 2023 +0530
+
+    removed lockfile
+
+commit 4d45c4de0d79ad49c4d9ff6fd0fa03450edfa29d
+Author: Dhravya <dhravyashah@gmail.com>
+Date:   Thu Jun 29 03:24:36 2023 +0530
+
+    theme switcher component
+
+commit 9d10f291cd898ba23972f914f1c4b161e32eb72d
+Author: Dhravya <dhravyashah@gmail.com>
+Date:   Thu Jun 29 03:19:09 2023 +0530
+
+    Added dark mode
+
+commit e1f905c932deb6e2608c61d3eb829e28bb3377a2
+Author: umeshjain1999 <ujain2601@gmail.com>
+Date:   Thu Jun 29 00:22:21 2023 +0530
+
+    refactor: remove unnecessary import from link-selector
+
+commit 1973ee04a49d3cdb0514fc07900f22e592636f4d
+Author: umeshjain1999 <ujain2601@gmail.com>
+Date:   Thu Jun 29 00:21:23 2023 +0530
+
+    refactor: add comment
+
+commit 9e781b620df77e0567cedcd6ee8fe900ba3798d9
+Merge: a4f6195c 9a50bcd4
+Author: Umesh Jain <42075232+umeshjain1999@users.noreply.github.com>
+Date:   Thu Jun 29 00:14:41 2023 +0530
+
+    Merge branch 'steven-tey:main' into main
+
+commit 96f3e48cf11d15e5d6be043e434f82559ac4b634
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 28 12:51:24 2023 -0500
+
+    removed unused import
+
+commit 1c8972c91caa35579a2d1134c3e51284a5c0bfe9
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 28 12:47:07 2023 -0500
+
+    Update node-selector.tsx
+
+commit 1e82c165e78a285b7dbdec8ee324604dfd246510
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 28 12:39:05 2023 -0500
+
+    removed rounded-sm
+
+commit 93f6ff45d0c7d796dac0e51dc30ac91e86bb8635
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 28 12:36:56 2023 -0500
+
+    small edits, added yellow
+
+commit 063f573a2eacdff558fcf3c4d03ca10e277c9b3b
+Merge: e2c494a9 9a50bcd4
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 28 12:23:40 2023 -0500
+
+    Merge branch 'main' into pr/55
+
+commit 9a50bcd467729f47eb62f3fc9c1acad0924aa774
+Merge: 97b0c498 dab9d629
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 28 12:23:19 2023 -0500
+
+    Merge pull request #50 from SimoMay/main
+
+commit dab9d62991d3f2014e34482fe95f9d9d88de37ab
+Merge: e340c6e0 97b0c498
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 28 12:22:17 2023 -0500
+
+    Merge branch 'main' into pr/50
+
+commit e2c494a9b93c53d6d61bfc6f417ce06e7619de27
+Author: hitgo00 <hitgo17@gmail.com>
+Date:   Wed Jun 28 15:14:57 2023 +0530
+
+    chore: rm capitalize classname
+    
+    Signed-off-by: hitgo00 <hitgo17@gmail.com>
+
+commit e5c56895b1a0899a21190a3646f158f5a6ea78f6
+Author: hitgo00 <hitgo17@gmail.com>
+Date:   Wed Jun 28 15:07:04 2023 +0530
+
+    feat: adds support for highlighting text
+    
+    Signed-off-by: hitgo00 <hitgo17@gmail.com>
+
+commit 97b0c498ea5913448bc2f5ddfb298025f4d3415b
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 28 10:12:21 2023 -0500
+
+    update prompt
+
+commit d60789adaf98ccd3e65c4027cd08f9e2b735103b
+Merge: 66cc1518 92d67917
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 28 09:04:46 2023 -0500
+
+    Merge pull request #54 from steven-tey/tiptap-markdown
+
+commit a4f6195cfb3f014cf059cd5ab269504076f60022
+Author: umeshjain1999 <ujain2601@gmail.com>
+Date:   Wed Jun 28 17:32:24 2023 +0530
+
+    feat: link selector convert, edit text to link or vice versa
+
+commit 92d67917f2f6962f12cc26e1ab0ecc2f6528c69c
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Jun 27 23:04:23 2023 -0500
+
+    edited prompt
+
+commit c326b40f66a0ad6b9c1039d017a16dc2dbad8c20
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Jun 27 22:56:31 2023 -0500
+
+    revert to using getText() for now, allow nested todo lists
+
+commit 8c1f9461b66ee8b8a0f05920d41a8be92cbdd876
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Jun 27 22:43:23 2023 -0500
+
+    fix numbered and bullet list styling, edited default content
+
+commit 6c595b8bcec15f3fcb56fe179526f59da5b31472
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Jun 27 22:21:43 2023 -0500
+
+    transform copied text to markdown
+
+commit 31c9b03d73304d486a6018ea110f57eec1fe3120
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Jun 27 22:18:39 2023 -0500
+
+    Added Markdown support via `tiptap-markdown`
+
+commit 66cc15185621bcaa2843686c65881270d600f352
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Jun 27 08:28:14 2023 -0700
+
+    Update README.md
+
+commit e340c6e00f2c2aeb47849f3bc535d84afa8cc20d
+Author: Mohamed Ahmed Fouad <mohamed.af@mail.com>
+Date:   Mon Jun 26 15:57:44 2023 +0200
+
+    fix(api): Slice content from the end to prioritize later characters
+
+commit c24120e6f3882959d09eec04d8776d448bf52c53
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Sun Jun 25 23:37:23 2023 -0500
+
+    small file name edits
+
+commit 23209eb16c67cf98db635e72f132ac3736ea6db1
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Sun Jun 25 15:42:40 2023 -0500
+
+    small file structure change
+
+commit 66b98f571e2d0494b699cc72ccd997a928c81212
+Merge: 0f10f7e8 a76f9f25
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Sun Jun 25 01:00:02 2023 -0500
+
+    Merge pull request #43 from uncenter/no-spellcheck
+
+commit a76f9f25032725707b846ccf99f80a0b2b7f1ba4
+Author: uncenter <47499684+uncenter@users.noreply.github.com>
+Date:   Fri Jun 23 20:04:14 2023 -0400
+
+    refactor: remove spellcheck="false" from links
+
+commit 7d1b4e710913cea6ae529b977f4c7a1d35c5192e
+Author: uncenter <47499684+uncenter@users.noreply.github.com>
+Date:   Fri Jun 23 19:28:19 2023 -0400
+
+    fix: prevent browser spellcheck on links and in inline-code/code blocks
+
+commit 0f10f7e8aa439141b91fc6c1a60eeea4d135015f
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 23 18:03:16 2023 -0500
+
+    set transform origin from center
+
+commit d5c5fd7c7da1a00358485daf4d88afb34aa4c08a
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 23 15:53:34 2023 -0500
+
+    small tweak
+
+commit 65c7a4f99005de22cf27c54b539807b5e316d033
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 23 14:59:32 2023 -0500
+
+    comments
+
+commit 822e3459479070c3a5a4dd3b273f417cbf433dfb
+Merge: 2272018c cfa53ab1
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 23 14:52:41 2023 -0500
+
+    Merge pull request #39 from umeshjain1999/main
+
+commit cfa53ab1b3a37de81e665f626f36d060b143b820
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 23 14:49:40 2023 -0500
+
+    added searchTerms for slash command
+
+commit 568e39eae01a705bf5053209e77742c00c75582f
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 23 14:40:47 2023 -0500
+
+    add custom checkbox effect
+
+commit 6398eee6f10c3877cf6606c264dd8b1ffe03df34
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 23 12:20:12 2023 -0500
+
+    added line-through when selected
+
+commit 03f1280ad746bda9b2824a7a223cf56979310249
+Merge: 4cd4d4a8 2272018c
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 23 11:45:39 2023 -0500
+
+    Merge branch 'main' into pr/39
+
+commit 2272018cbef5c859839794ca5a069a6f27e02143
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 23 11:44:02 2023 -0500
+
+    Update use-local-storage.ts
+
+commit c2acb406bb6d6dd9a2cf73346c57d8854f41c5fb
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 23 11:41:25 2023 -0500
+
+    fixed eslint errors
+
+commit 4cd4d4a8b86666cae06846c3a234b693a011fd5a
+Author: umeshjain1999 <ujain2601@gmail.com>
+Date:   Fri Jun 23 21:09:48 2023 +0530
+
+    added to-do list option in editor
+
+commit aa99df0bf9de8e1c8e0b2e0ec7d49e5f571574aa
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 23 10:11:57 2023 -0500
+
+    updated postcss config to remove warnings, small updates to other config files
+
+commit 111470b479e1b42da3072b7c94c683507b7a33f9
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Jun 22 15:24:58 2023 -0500
+
+    fix typo
+
+commit 0a5735022d7df6c5a756cc4dd89471431cd935c7
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Jun 22 13:39:42 2023 -0500
+
+    handle multiple selector opens
+
+commit 7f8425c018b43286385153f0d17bef5ff1cbcf90
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Jun 22 13:37:35 2023 -0500
+
+    slight tweak code block style
+
+commit 589f80779e0c66afaca9649d1b243355cf3060ce
+Merge: da3ef0a3 8b5b85dd
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Jun 22 11:25:11 2023 -0500
+
+    Merge pull request #35 from hitgo00/new-blocks
+
+commit 8b5b85dd1734cd3172c7bc04717a594cdc8f7f3b
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Jun 22 11:14:59 2023 -0500
+
+    Added codeblock, account for multiple styles in NodeSelector
+
+commit 4eec3d2ba10f20ae6a969b2bd920b10c978248d6
+Merge: b9f98ac2 da3ef0a3
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Jun 22 10:56:56 2023 -0500
+
+    Merge branch 'main' into pr/35
+
+commit da3ef0a36f4972f2eee55edfd96665512ec9ae92
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Jun 22 10:45:19 2023 -0500
+
+    Update .env.example
+
+commit b2e4c297ba37f51cd9203429318fe82d785fc96a
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Jun 22 10:38:02 2023 -0500
+
+    Account for missing BLOB_READ_WRITE_TOKEN
+
+commit b7113ba0fa81d65f322c93e47f9409cde9e6a9fd
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Jun 22 08:51:41 2023 -0500
+
+    small fix
+
+commit 8e1de537b5c0291c0846121a8ebcfc159dbb150e
+Merge: 59e2fd4a d82aaddc
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Jun 22 08:30:08 2023 -0500
+
+    Merge pull request #34 from steven-tey/image-uploads
+
+commit d82aaddc427438b04351826a3921677cf8ad3419
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Jun 22 08:29:12 2023 -0500
+
+    small tweak
+
+commit 08876e8c60e9e164cdc4caaa848d313a25151a1c
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Jun 22 08:26:07 2023 -0500
+
+    Added README, env vars, error handling
+
+commit b9f98ac22513371e3261b5d03b924e5fa5a6f695
+Author: hitgo00 <hitgo17@gmail.com>
+Date:   Thu Jun 22 15:52:42 2023 +0530
+
+    feat: support for adding blockquote node
+    
+    Signed-off-by: hitgo00 <hitgo17@gmail.com>
+
+commit 918a2cad54dad78e0b5823060a9efc87651d49df
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 21 22:46:31 2023 -0500
+
+    Added upload image via slash command
+
+commit b5f20791d69f61879c27b755593e89d6d5639020
+Merge: 81230fea 59e2fd4a
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 21 19:06:08 2023 -0500
+
+    Merge branch 'main' into image-uploads
+
+commit 59e2fd4abd8c8f60e48247b3c584b98268ed5b5d
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 21 19:05:44 2023 -0500
+
+    added htmlattributes for image
+
+commit b3fb9c8b081db145ee3442805cac96c213762c92
+Merge: 8286a3d5 b66e82b2
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 21 18:30:07 2023 -0500
+
+    Merge pull request #28 from rowheat02/moreactionsinbubblemenu
+
+commit b66e82b2b1d26f3588a3fb8103528eab88446c31
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 21 18:29:42 2023 -0500
+
+    edited some colors
+
+commit 049e7cc488624721cdcf274ba7712c02d5c477ae
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 21 18:22:49 2023 -0500
+
+    simplify color array, standardize gray → stone
+
+commit ae427941ae43185b5db56ca10ba14fd769216918
+Merge: 176bdb96 8286a3d5
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 21 18:15:03 2023 -0500
+
+    Merge branch 'main' into pr/28
+
+commit 8286a3d5bded985d25d37c48ec30737cb000607b
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 21 18:14:53 2023 -0500
+
+    remove inline option
+
+commit 176bdb96792940b09b5ea40fe1b35746f75e57a8
+Merge: 15f044f9 b192e460
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 21 18:14:22 2023 -0500
+
+    Merge branch 'main' into pr/28
+
+commit 81230fea81a529fb5cb3264359cf6e86e89db5e8
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 21 18:08:50 2023 -0500
+
+    Feat: Image Uploads
+
+commit b192e46069587a6efb72c190f61d6e7597d8142f
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 21 13:31:18 2023 -0500
+
+    improve image highlight
+
+commit 041b89890e0f9aa7385519ccc7230a26538a9439
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 21 10:44:48 2023 -0500
+
+    edit dropcursor color and width
+
+commit 565079bf01ad2e4b33457a36b2b94106d1fd2be0
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 21 00:05:26 2023 -0500
+
+    revert next to latest
+
+commit 15f044f9f2b8b1b29940cc97a385ddb7b5372b11
+Merge: 944f04b3 f5352211
+Author: Rohit Gautam <rohit.jack02@gmail.com>
+Date:   Wed Jun 21 08:29:04 2023 +0545
+
+    Merge branch 'main' of github.com:rowheat02/novel into moreactionsinbubblemenu
+
+commit 944f04b376e3ce24353ae7ba3d4375194f641d54
+Author: Rohit Gautam <rohit.jack02@gmail.com>
+Date:   Wed Jun 21 08:26:44 2023 +0545
+
+    fix:color code updates for white background
+
+commit f535221199beb37d40e218e251f062f9e7a44dc1
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Jun 20 18:57:43 2023 -0500
+
+    Update pnpm-lock.yaml
+
+commit 77ae72cc06bf88fc635b4c5eedec01cc65591883
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Jun 20 18:57:27 2023 -0500
+
+    Update .prettierignore
+
+commit 0633413a1a109add7d99acfbdd2a38ada5cfdca0
+Merge: 2725e017 226d8f95
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Jun 20 18:56:10 2023 -0500
+
+    Merge pull request #16 from GraemeFulton/main
+
+commit 226d8f958c4ba6a83edb7a475710304c1745948d
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Jun 20 18:52:13 2023 -0500
+
+    update deps
+
+commit 33281a454f19dfeb1a24c444bf43b0d90181522c
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Jun 20 18:50:02 2023 -0500
+
+    improve prompt
+
+commit 0da18583592ddb7b844593e8b5ec2cbfb47565e9
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Jun 20 18:47:20 2023 -0500
+
+    handle click events from parent editor component
+
+commit 04306c0a43fed2a055f6088970b649c05747a572
+Merge: e8a7ca0f 2725e017
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Jun 20 17:34:32 2023 -0500
+
+    Merge branch 'main' into pr/16
+
+commit 82e0f542f12dfa46c6273332a553f3925a1afef3
+Author: Rohit Gautam <rohit.jack02@gmail.com>
+Date:   Tue Jun 20 23:34:52 2023 +0545
+
+    fix:removed unused imports
+
+commit 4bc26e263aaaca670ab93ff6d2f44f4987e1f935
+Author: Rohit Gautam <rohit.jack02@gmail.com>
+Date:   Tue Jun 20 23:14:56 2023 +0545
+
+    feat: text color options in bubblemenu
+
+commit 2725e017b0b1d6f2dd030a543970996b42987a80
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Jun 20 08:38:46 2023 -0700
+
+    Update next.config.js
+
+commit c6f4bb1e4d27c0fb9bf4519b9ac73791d3f5b635
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Mon Jun 19 22:07:11 2023 -0500
+
+    Update README.md
+
+commit 2e94e5acf64b86f43b6ca10e7b08fd566878c737
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Mon Jun 19 16:59:37 2023 -0500
+
+    remove "🤖..." in generating route
+
+commit e8a7ca0fc1f93a529d210041c55a182020ed8487
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Mon Jun 19 16:03:07 2023 -0500
+
+    Delete package-lock.json
+
+commit 75af036e3f46e245fb748a8a8a01dc196012eda3
+Merge: 03292326 def8f0b0
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Mon Jun 19 15:53:19 2023 -0500
+
+    Merge branch 'main' into pr/16
+
+commit def8f0b07476b7b330f5c516cdeadedd71d5b1eb
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Mon Jun 19 15:50:08 2023 -0500
+
+    remove unused css
+
+commit 5dc141c24581b49b6d0a3366fbee61827259623a
+Merge: 51163472 f9ee4eba
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Mon Jun 19 14:05:37 2023 -0500
+
+    Merge pull request #14 from sereneinserenade/main
+
+commit f9ee4ebaaa0f06bacd76d3716b41ddc26c76dc97
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Mon Jun 19 14:05:11 2023 -0500
+
+    remove canBeActive
+
+commit fd97f0e260613bcb1629e02761840561ba84578b
+Merge: 8a1d1e8b 51163472
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Mon Jun 19 13:53:43 2023 -0500
+
+    Merge branch 'main' into pr/12
+
+commit 511634726fdd166069bc27261317f4fe80613478
+Merge: 4bc5d6f1 4572d193
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Mon Jun 19 13:53:28 2023 -0500
+
+    Merge pull request #20 from dewanshchaudhari/main
+
+commit 4572d1934a06d9a776fbd089496c076c29e8dfd5
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Mon Jun 19 13:52:50 2023 -0500
+
+    small edits
+
+commit 8a1d1e8bbc2223a0de0eadc8cb52f91e8e1a05be
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Mon Jun 19 12:56:46 2023 -0500
+
+    improved styling
+
+commit 9024b0535fff5bf6eface150dd8a37e67fd3e751
+Author: Dewansh Chaudhari <codewansh@Dewanshs-MacBook-Pro.local>
+Date:   Mon Jun 19 23:25:18 2023 +0530
+
+    added env example
+
+commit 3d4ce409632b535bf4dbb5d70b61e23614064149
+Merge: 03718e0e 4bc5d6f1
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Mon Jun 19 11:15:05 2023 -0500
+
+    Merge branch 'main' into pr/12
+
+commit 4bc5d6f1f36509528f4e44f9a8650f525d5f851b
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Mon Jun 19 11:14:35 2023 -0500
+
+    change loading animation
+
+commit 0329232672b369e8a03be203381bd26e4b5260e3
+Author: Graeme Fulton <graemefulton89@gmail.com>
+Date:   Mon Jun 19 11:33:31 2023 +0100
+
+    add event listeners to prevent ai writing all over the place on click
+
+commit 03718e0eebe2be423d69f992dcf6248d74db01e9
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Sun Jun 18 22:34:33 2023 -0500
+
+    fix color scheme and minor style changes
+
+commit 0cbe885c2673e4af2f5f34cce6b653ea1ff8c168
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Sun Jun 18 21:41:05 2023 -0500
+
+    Delete initialEditorContent.ts
+
+commit 4f8b81695399bb84cc7a790f9bf7f73eaa2a9efa
+Merge: 6f35d9bd e88a40f9
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Sun Jun 18 21:40:55 2023 -0500
+
+    Merge branch 'main' of https://github.com/sereneinserenade/novel into pr/12
+
+commit 6f35d9bde535f8f59fff013a0ecbd037888a5499
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Sun Jun 18 21:38:32 2023 -0500
+
+    Fix horizontal rule bug, added heading placeholders, simple loading animation for "++"
+
+commit 96156c8e2a95d0b864beba9d30e73c5f5cecd9d5
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Sun Jun 18 18:34:09 2023 -0500
+
+    made highlight work for ++ as well
+
+commit 0921657d5e9acbd5c143f9b8298c029f477c3d93
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Sun Jun 18 18:17:52 2023 -0500
+
+    switch model
+
+commit e88a40f91aa84264a095b05fab6f0e8c2847db6f
+Author: Jeet Mandaliya <jeet.mandaliya7@gmail.com>
+Date:   Mon Jun 19 01:11:49 2023 +0200
+
+    removed custom icons and using lucide icons
+
+commit 176296985ed2d9f7407515cec6e30d7b332d8594
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Sun Jun 18 18:13:04 2023 -0500
+
+    fixed shift-enter bug
+
+commit cdfd7b5259f4403436f4d40bf52d8f56da77cd2d
+Author: Jeet Mandaliya <jeet.mandaliya7@gmail.com>
+Date:   Mon Jun 19 01:01:18 2023 +0200
+
+    prettier
+
+commit a3d3deb8780e9b4484acbafe63571cae6b64c240
+Author: Jeet Mandaliya <jeet.mandaliya7@gmail.com>
+Date:   Mon Jun 19 00:51:26 2023 +0200
+
+    feat: bubble menu
+
+commit 1c8f9d40b9079fb1d550e900d78f17c224c2dc72
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Sun Jun 18 17:45:54 2023 -0500
+
+    Added feedback link
+
+commit 8ab521881aa1b4abf94871d94542d6e9c9769efb
+Merge: 98a34999 312b7e98
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Sun Jun 18 13:33:24 2023 -0500
+
+    Merge pull request #12 from sereneinserenade/main
+
+commit 312b7e9810803425cc4fd239647ee461951d0498
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Sun Jun 18 13:27:24 2023 -0500
+
+    prettier
+
+commit 7f73c3108537e0e05147e23451fa8b55978ea7a9
+Author: Jeet Mandaliya <jeet.mandaliya7@gmail.com>
+Date:   Sun Jun 18 16:13:44 2023 +0200
+
+    feat(command list): scrolling to the item when navigating with keyboard
+
+commit 98a34999f82af6a43aa918c659595912e6a92295
+Merge: a1b6747a 548eb8ec
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Sat Jun 17 17:17:15 2023 -0500
+
+    Merge pull request #8 from rajatsandeepsen/main
+
+commit 548eb8ec589c365cf37e004ba2573ca70f8dcb9c
+Author: Rajat Sandeep <93584596+rajatsandeepsen@users.noreply.github.com>
+Date:   Sat Jun 17 19:02:20 2023 +0530
+
+    removed package-lock
+
+commit c64a21730b1e9be9f473aac2f80f2dcc7e1b84ea
+Author: Rajat Sandeep <93584596+rajatsandeepsen@users.noreply.github.com>
+Date:   Sat Jun 17 12:55:04 2023 +0000
+
+    fix: buttons
+
+commit a1b6747a2d1cd47455805cf908bd930c0435c934
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 16 22:49:48 2023 -0500
+
+    edited logos
+
+commit 7398219bff2d17b2a48349041d7829e86eb55bfa
+Merge: 9faf5459 80e915bc
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 16 22:40:08 2023 -0500
+
+    Merge branch 'main' of https://github.com/steven-tey/novel
+
+commit 9faf54591870a35257439e24af99511965c145a3
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 16 22:40:07 2023 -0500
+
+    bumped up character limit
+
+commit 80e915bc2eceef80b09e26988b2c2a364cd4bb0d
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 16 20:23:02 2023 -0700
+
+    Update shields.io badges
+
+commit 94b034c3453cf2eb7bdbf99d9082c754e5381f57
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 16 22:19:29 2023 -0500
+
+    edited default text
+
+commit 29aa414c8d9b153a5c7e4bedc9b9f9c6f9e62b76
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 16 21:43:14 2023 -0500
+
+    edit cta
+
+commit 6c3904e8269f6f935facc642e11843a327545c28
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 16 21:38:29 2023 -0500
+
+    added more action items
+
+commit 0a101b4587234528ead91d456861cb259f7a6e3c
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 16 21:27:52 2023 -0500
+
+    added deploy link
+
+commit 244d67366ab5b1e7e6e7647dcfd737f75ba8daa6
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 16 21:13:37 2023 -0500
+
+    updated default text
+
+commit a35c0d92be9bd10a05d20924283ebe3f546d7fc1
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 16 21:07:32 2023 -0500
+
+    Fixed typo WYSYWIG → WYSIWYG
+
+commit 62d32be43dae8aa40fab04c0c40f305646028dda
+Merge: d8e778e4 6390e5b7
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 16 16:16:57 2023 -0500
+
+    Merge pull request #3 from redac/patch-1
+
+commit 6390e5b726bb51433c9b8f56468089892acbd6cc
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 16 16:16:40 2023 -0500
+
+    removed author
+
+commit d8e778e4a03f050b672074a4163f26aecec4fe90
+Merge: c72b5186 4d901d52
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 16 15:25:26 2023 -0500
+
+    Merge branch 'main' of https://github.com/steven-tey/novel
+
+commit c72b51863f67bab79248113605a2b12662154b53
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 16 15:25:24 2023 -0500
+
+    track autocomplete shortcut usage
+
+commit 8a5a6856889669e00e89d1f2d7d6e2624d136aa4
+Author: reda <20306749+redac@users.noreply.github.com>
+Date:   Fri Jun 16 22:14:23 2023 +0200
+
+    chore: fix readme anchors
+    
+    removed repeated anchor and added anchors for last 2 sections
+
+commit 4d901d52ab37ba9cb243dbb5501a59cae96418b4
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 16 14:19:54 2023 -0500
+
+    Fixed demo video
+
+commit eb2bb48020ad692583742b153ea4593677beb7c0
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 16 13:18:59 2023 -0500
+
+    added deploy redirect
+
+commit 970bd85be140a36be949a8433ca0d98b66c5e650
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 16 13:14:14 2023 -0500
+
+    upgraded to gpt-3.5-turbo-16k, fixed a small bug escape vs CMD+Z
+
+commit da32aa56610440f4cdb02adbb47e026fb6552e1f
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 16 12:58:10 2023 -0500
+
+    fixed "li" line height
+
+commit e12ca4d0f87ae8c10e33a8ac7a40008bb4acd8d2
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 16 12:50:54 2023 -0500
+
+    missed a spot
+
+commit 83d1237e044a3bfe3eaf33690bcbe57a2c98633e
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 16 12:49:04 2023 -0500
+
+    added analytics
+
+commit b810638b3c07652435944b9c93b0d0861711a735
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 16 12:22:06 2023 -0500
+
+    added ++ to autocomplete
+
+commit b602fbb25fc3ea283fe65269e74a418757732391
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 16 10:55:38 2023 -0500
+
+    fixed prompt engineering
+
+commit 7600cd39202ec0f3099780559500319d54157f69
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 16 10:05:05 2023 -0500
+
+    added error handling
+
+commit eb98de4da425f8f624fc0580d6df1b9fe056922b
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 16 10:01:57 2023 -0500
+
+    fix edge function error
+
+commit 8ddee1cff5b679938d651737932595c9cd27bc80
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 16 09:54:24 2023 -0500
+
+    added autofocus
+
+commit 7992e9431d0372210ea027c35a7a88eb2ad12323
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 16 09:36:33 2023 -0500
+
+    added metadataBase
+
+commit 99ef2230678d2c3c5e827264a5f5e9fceec2fdaf
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 16 09:34:55 2023 -0500
+
+    fix metatags
+
+commit a5708bf8ae1ecd564d620678fe7842e77ba23e34
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 16 09:19:34 2023 -0500
+
+    remove unused assets
+
+commit b52e2c8f964853ac8f18799b31d42030ec370e5a
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 16 09:17:42 2023 -0500
+
+    updated ai to latest
+
+commit 67b274d4ec8f75f70d9d7efec0bb47e1ee302bf1
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Fri Jun 16 08:54:53 2023 -0500
+
+    added link to github
+
+commit 8582f669e52af8037adf1822f42270cdeedacff3
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Jun 15 19:12:44 2023 -0700
+
+    Update README.md
+
+commit b42eca3a45823238578a00e2b48276ef4db11a92
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Jun 15 19:12:24 2023 -0700
+
+    Update README.md
+
+commit 08a5064af0d33b1f9d7c1136b7dc1ababa238dc0
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Jun 15 17:28:37 2023 -0700
+
+    Create LICENSE
+
+commit 84c1896c64e1295d9bd7d670e78e39a4ccd45598
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Jun 15 17:28:09 2023 -0700
+
+    Update README.md
+
+commit e5d5d2904e54fbe45aa5e9e9af7c8c2828351448
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Jun 15 19:05:03 2023 -0500
+
+    fix paddings
+
+commit d05597316b3538b1095261c105651163f13c07a5
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Jun 15 18:22:32 2023 -0500
+
+    added numbered and bullet lists
+
+commit 123b375d308e133da263e8f91aa452b4d4c75bd8
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Jun 15 15:03:46 2023 -0500
+
+    remove incorrect metatags
+
+commit 135a5506c13b878d32040206580e52bec3005983
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Thu Jun 15 11:25:33 2023 -0500
+
+    updated font, added meta tags, OG image
+
+commit 75777cd50ec688a952f09092afa071983098295e
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 14 23:06:39 2023 -0500
+
+    Added ratelimits & tracking
+
+commit 5b5c981fddc8044c0f1243d7110cffeb49c63072
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 14 22:02:32 2023 -0500
+
+    update padding again
+
+commit 63eff35f3fdbd380b9df0faf2de3d2e3d9380801
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 14 21:50:58 2023 -0500
+
+    reduce padding-x for mobile
+
+commit ddf983e217c015dea69ff66d5aba7f18f9874d48
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 14 20:32:29 2023 -0500
+
+    added gh redirect
+
+commit 97f9abbeac0bac1135d8c1ba1122d26039f1fd3f
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 14 20:31:32 2023 -0500
+
+    made useCompletion implementation more declarative, fixed TS errors
+
+commit 887fd5cb58c122bde522d79448dc2311bb57668e
+Merge: f9f8e5ce 3d73ccbe
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 14 18:25:45 2023 -0500
+
+    Merge pull request #2 from steven-tey/debug-use-completion
+
+commit 3d73ccbed53996e756a12ec56af63247aee0e2f5
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 14 18:21:09 2023 -0500
+
+    added comments
+
+commit c0eb15cc20d08b7373df8b99b0b6052a5c6ec0fc
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 14 18:20:20 2023 -0500
+
+    Update slash-command.tsx
+
+commit 0aaf6eed9613d74a1b43adc982f23bdc30822445
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 14 18:10:15 2023 -0500
+
+    refactor to useCompletion
+
+commit d1aefb47a704d028ba50b6f9c37281cb1fa2b3f9
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 14 17:43:53 2023 -0500
+
+    missed a spot
+
+commit abc9b3f048e42a658e08375a8523e052bb351001
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 14 17:39:10 2023 -0500
+
+    Update slash-command.tsx
+
+commit f9f8e5ceea192dfbfb3dfd561ce6f9168751d815
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 14 17:38:12 2023 -0500
+
+    fix ts error
+
+commit f5721b3ce3c8a0030b7bcae6fc5ae685af071482
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 14 17:37:50 2023 -0500
+
+    fix streaming
+
+commit e8453ea63d4cbe72ada69f030d8d3b6849fb6dc3
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Jun 14 17:24:47 2023 -0500
+
+    Built WYSYWIG editor with Tiptap, integrated slash commands and AI autocomplete
+
+commit fbf42464780dac46fbb9f46c5f076119853dbb34
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Sun May 28 21:11:46 2023 -0500
+
+    added slash commands
+
+commit ecd37e1bc6f946181a4d7257f0095b8a24b34fe1
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Mar 22 11:14:53 2023 -0500
+
+    Update editor.tsx
+
+commit 119cab77fedf58fc26a62a1837139af09777b052
+Merge: 0d8bde5c 6b0534c1
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Mar 21 16:56:19 2023 -0500
+
+    Merge pull request #1 from steven-tey/route-handlers
+
+commit 6b0534c1ef61f5aa735e61f59fb7b62ce61d2e9e
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Mar 21 16:56:01 2023 -0500
+
+    Delete hello.ts
+
+commit 91fd58a45d401cc1a525c2c97bbd1e9f38b87e16
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Mar 21 16:54:05 2023 -0500
+
+    Upgrade to latest next canary
+
+commit 0d8bde5caa5eb76b15549978d7f656eec0adccf2
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Mar 21 16:32:43 2023 -0500
+
+    move to pages/api temporarily
+
+commit 44878691b9acf237476675c5c6ac8aa9105c8c3b
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Mar 21 16:13:51 2023 -0500
+
+    Improved tiptap editor, made autocomplete work, added prettier
+
+commit 133440e4685ada04196636f37e0534d61a2af08e
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Sat Mar 18 18:22:42 2023 -0500
+
+    added tiptap editor, hooked it up to OpenAI API (gpt-3.5-turbo model)
+
+commit baf6803335cf5eade832a1dfb41c12f08f7e9cc6
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Wed Mar 15 14:43:46 2023 -0500
+
+    init app, installed Tailwind
+
+commit 4a8e097e6d9dee49ba6b553cf49e97a2931772c6
+Author: Steven Tey <stevensteel97@gmail.com>
+Date:   Tue Mar 14 18:26:41 2023 -0500
+
+    Initial commit from Create Next App
