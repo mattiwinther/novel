@@ -22,6 +22,11 @@ export default function Page() {
               Usage in dialog
             </Button>
           </DialogTrigger>
+          <DialogTrigger asChild>
+            <Button className="ml gap-2">
+              View Source
+            </Button>
+          </DialogTrigger>
           <DialogContent className="flex max-w-3xl h-[calc(100vh-24px)]">
             <ScrollArea className="max-h-screen">
               <TailwindAdvancedEditor />
