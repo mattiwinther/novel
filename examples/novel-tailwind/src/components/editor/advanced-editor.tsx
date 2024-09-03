@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import {
   EditorRoot,
   EditorCommand,
@@ -9,6 +9,7 @@ import {
   type JSONContent,
   EditorCommandList,
   EditorBubble,
+  useEditor,
 } from "novel";
 import { ImageResizer, handleCommandNavigation } from "novel/extensions";
 import { defaultExtensions } from "./extensions";
@@ -21,6 +22,7 @@ import { slashCommand, suggestionItems } from "./slash-command";
 import { handleImageDrop, handleImagePaste } from "novel/plugins";
 import { uploadFn } from "./image-upload";
 import { Separator } from "../ui/separator";
+import { SourceViewPopup } from "./source-view-popup";
 
 const extensions = [...defaultExtensions, slashCommand];
 
@@ -32,6 +34,13 @@ const Editor = ({ initialValue, onChange }: EditorProp) => {
   const [openNode, setOpenNode] = useState(false);
   const [openColor, setOpenColor] = useState(false);
   const [openLink, setOpenLink] = useState(false);
+  const [showSourceView, setShowSourceView] = useState(false);
+
+  const editor = useEditor();
+
+  const toggleSourceView = useCallback(() => {
+    setShowSourceView((prev) => !prev);
+  }, []);
 
   return (
     <EditorRoot>
@@ -87,6 +96,12 @@ const Editor = ({ initialValue, onChange }: EditorProp) => {
           }}
           className="flex w-fit max-w-[90vw] overflow-hidden rounded-md border border-muted bg-background shadow-xl"
         >
+          <button
+            onClick={toggleSourceView}
+            className="flex items-center justify-center px-3 py-1 font-medium hover:bg-accent"
+          >
+            View Source
+          </button>
           <Separator orientation="vertical" />
           <NodeSelector open={openNode} onOpenChange={setOpenNode} />
           <Separator orientation="vertical" />
@@ -98,6 +113,16 @@ const Editor = ({ initialValue, onChange }: EditorProp) => {
           <ColorSelector open={openColor} onOpenChange={setOpenColor} />
         </EditorBubble>
       </EditorContent>
+      {showSourceView && (
+        <SourceViewPopup
+          isOpen={showSourceView}
+          onClose={() => setShowSourceView(false)}
+          content={editor?.getHTML() || ""}
+          onContentChange={(newContent) => {
+            editor?.commands.setContent(newContent);
+          }}
+        />
+      )}
     </EditorRoot>
   );
 };
