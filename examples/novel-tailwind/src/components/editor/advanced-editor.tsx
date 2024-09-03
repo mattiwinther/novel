@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState, useCallback } from "react";
+import React, { useState, useCallback } from "react";
 import {
   EditorRoot,
   EditorCommand,
@@ -46,7 +46,7 @@ const Editor = ({ initialValue, onChange }: EditorProp) => {
     <EditorRoot>
       <EditorContent
         className="border p-4 rounded-xl"
-        {...(initialValue && { initialContent: initialValue })}
+        initialContent={initialValue}
         extensions={extensions}
         editorProps={{
           handleDOMEvents: {
