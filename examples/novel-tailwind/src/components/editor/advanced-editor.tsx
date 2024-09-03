@@ -23,22 +23,29 @@ import { handleImageDrop, handleImagePaste } from "novel/plugins";
 import { uploadFn } from "./image-upload";
 import { Separator } from "../ui/separator";
 import { SourceViewPopup } from "./source-view-popup";
-const hljs = require('highlight.js');
+import hljs from 'highlight.js';
 
 const extensions = [...defaultExtensions, slashCommand];
 
-interface EditorProp {
+interface EditorProps {
   initialValue?: JSONContent;
   onChange: (value: JSONContent) => void;
 }
-const Editor = ({ initialValue, onChange }: EditorProp) => {
+
+const Editor: React.FC<EditorProps> = ({ initialValue, onChange }) => {
   const [openNode, setOpenNode] = useState(false);
   const [openColor, setOpenColor] = useState(false);
   const [openLink, setOpenLink] = useState(false);
   const [showSourceView, setShowSourceView] = useState(false);
   const [highlightedSource, setHighlightedSource] = useState("");
 
-  const editor = useEditor();
+  const editor = useEditor({
+    extensions,
+    content: initialValue,
+    onUpdate: ({ editor }) => {
+      onChange(editor.getJSON());
+    },
+  });
 
   const toggleSourceView = useCallback(() => {
     setShowSourceView((prev) => !prev);
@@ -47,7 +54,7 @@ const Editor = ({ initialValue, onChange }: EditorProp) => {
   const highlightCodeblocks = useCallback((content: string) => {
     const doc = new DOMParser().parseFromString(content, 'text/html');
     doc.querySelectorAll('pre code').forEach((el) => {
-      hljs.highlightElement(el);
+      hljs.highlightElement(el as HTMLElement);
     });
     return new XMLSerializer().serializeToString(doc);
   }, []);
@@ -60,27 +67,15 @@ const Editor = ({ initialValue, onChange }: EditorProp) => {
     }
   }, [editor, showSourceView, highlightCodeblocks]);
 
+  if (!editor) {
+    return null;
+  }
+
   return (
     <EditorRoot>
       <EditorContent
+        editor={editor}
         className="border p-4 rounded-xl"
-        initialContent={initialValue}
-        extensions={extensions}
-        editorProps={{
-          handleDOMEvents: {
-            keydown: (_view, event) => handleCommandNavigation(event),
-          },
-          handlePaste: (view, event) => handleImagePaste(view, event, uploadFn),
-          handleDrop: (view, event, _slice, moved) =>
-            handleImageDrop(view, event, moved, uploadFn),
-          attributes: {
-            class: `prose prose-lg dark:prose-invert prose-headings:font-title font-default focus:outline-none max-w-full`,
-          },
-        }}
-        onUpdate={({ editor }) => {
-          onChange(editor.getJSON());
-        }}
-        slotAfter={<ImageResizer />}
       >
         <EditorCommand className="z-50 h-auto max-h-[330px] overflow-y-auto rounded-md border border-muted bg-background px-1 py-2 shadow-md transition-all">
           <EditorCommandEmpty className="px-2 text-muted-foreground">
@@ -109,6 +104,7 @@ const Editor = ({ initialValue, onChange }: EditorProp) => {
         </EditorCommand>
 
         <EditorBubble
+          editor={editor}
           tippyOptions={{
             placement: "top",
           }}
@@ -132,13 +128,14 @@ const Editor = ({ initialValue, onChange }: EditorProp) => {
           <ColorSelector open={openColor} onOpenChange={setOpenColor} />
         </EditorBubble>
       </EditorContent>
+      <ImageResizer />
       {showSourceView && (
         <SourceViewPopup
           isOpen={showSourceView}
           onClose={() => setShowSourceView(false)}
           content={highlightedSource}
           onContentChange={(newContent) => {
-            editor?.commands.setContent(newContent);
+            editor.commands.setContent(newContent);
             setHighlightedSource(highlightCodeblocks(newContent));
           }}
         />
