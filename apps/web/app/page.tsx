@@ -1,3 +1,5 @@
+"use client";
+
 import TailwindAdvancedEditor from "@/components/tailwind/advanced-editor";
 import { Button } from "@/components/tailwind/ui/button";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/tailwind/ui/dialog";
