@@ -30,15 +30,29 @@ const hljs = require('highlight.js');
 
 const extensions = [...defaultExtensions, slashCommand];
 
-const TailwindAdvancedEditor = () => {
+const TailwindAdvancedEditor = ({ onSourceChange }: { onSourceChange?: (source: string) => void }) => {
   const [initialContent, setInitialContent] = useState<null | JSONContent>(null);
   const [saveStatus, setSaveStatus] = useState("Saved");
   const [charsCount, setCharsCount] = useState();
+  const [editor, setEditor] = useState<EditorInstance | null>(null);
 
   const [openNode, setOpenNode] = useState(false);
   const [openColor, setOpenColor] = useState(false);
   const [openLink, setOpenLink] = useState(false);
   const [openAI, setOpenAI] = useState(false);
+
+  const getHighlightedSource = () => {
+    if (editor) {
+      return highlightCodeblocks(editor.getHTML());
+    }
+    return "";
+  };
+
+  useEffect(() => {
+    if (editor && onSourceChange) {
+      onSourceChange(getHighlightedSource());
+    }
+  }, [editor, onSourceChange]);
 
   //Apply Codeblock Highlighting on the HTML from editor.getHTML()
   const highlightCodeblocks = (content: string) => {
