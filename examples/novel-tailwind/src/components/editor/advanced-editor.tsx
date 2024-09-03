@@ -99,6 +99,7 @@ const Editor = ({ initialValue, onChange }: EditorProp) => {
           <button
             onClick={toggleSourceView}
             className="flex items-center justify-center px-3 py-1 font-medium hover:bg-accent"
+            aria-label="Toggle source view"
           >
             View Source
           </button>
