@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useCallback } from "react";
+import React, { useState, useCallback, useEffect } from "react";
 import {
   EditorRoot,
   EditorCommand,
@@ -23,6 +23,7 @@ import { handleImageDrop, handleImagePaste } from "novel/plugins";
 import { uploadFn } from "./image-upload";
 import { Separator } from "../ui/separator";
 import { SourceViewPopup } from "./source-view-popup";
+const hljs = require('highlight.js');
 
 const extensions = [...defaultExtensions, slashCommand];
 
@@ -35,12 +36,29 @@ const Editor = ({ initialValue, onChange }: EditorProp) => {
   const [openColor, setOpenColor] = useState(false);
   const [openLink, setOpenLink] = useState(false);
   const [showSourceView, setShowSourceView] = useState(false);
+  const [highlightedSource, setHighlightedSource] = useState("");
 
   const editor = useEditor();
 
   const toggleSourceView = useCallback(() => {
     setShowSourceView((prev) => !prev);
   }, []);
+
+  const highlightCodeblocks = useCallback((content: string) => {
+    const doc = new DOMParser().parseFromString(content, 'text/html');
+    doc.querySelectorAll('pre code').forEach((el) => {
+      hljs.highlightElement(el);
+    });
+    return new XMLSerializer().serializeToString(doc);
+  }, []);
+
+  useEffect(() => {
+    if (editor && showSourceView) {
+      const html = editor.getHTML();
+      const highlighted = highlightCodeblocks(html);
+      setHighlightedSource(highlighted);
+    }
+  }, [editor, showSourceView, highlightCodeblocks]);
 
   return (
     <EditorRoot>
@@ -118,9 +136,10 @@ const Editor = ({ initialValue, onChange }: EditorProp) => {
         <SourceViewPopup
           isOpen={showSourceView}
           onClose={() => setShowSourceView(false)}
-          content={editor?.getHTML() || ""}
+          content={highlightedSource}
           onContentChange={(newContent) => {
             editor?.commands.setContent(newContent);
+            setHighlightedSource(highlightCodeblocks(newContent));
           }}
         />
       )}
